@@ -488,11 +488,18 @@ ul li input[type="checkbox"]:checked+label span:first-child:before {
 }
 
 
-/* //pop up for sign in and sign up form */
+.fixed-nav {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 997;
+}
+
 ul.nav.navbar-nav 
 {
-  padding-left: 100px;
+  padding-left: 75px;
   padding-top: 30px;
+
 }
  .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
     background-color: #000 !important;
@@ -519,22 +526,22 @@ button#btnLogin {
     font-weight: 400;
     letter-spacing: 1px;
     padding: 5px;
-	background-color: transparent;
-	border: 1px solid #fff;
-	color:#fff;
+  	background-color: transparent;
+  	border: 1px solid #fff;
+  	color:#fff;
 	
 }
  ::-webkit-input-placeholder {
-color:#777 !important;
+color:#fff !important;
 }
 :-moz-placeholder { /* Firefox 18- */
-color:#777 !important;
+color:#fff !important;
 }
 ::-moz-placeholder {  /* Firefox 19+ */
-color:#777 !important;
+color:#fff !important;
 }
 :-ms-input-placeholder {  
-color:#777 !important;
+color:#fff !important;
 }
 .navbar-brand {
     float: left;
@@ -548,6 +555,7 @@ color:#777 !important;
     border-color: transparent;
   	margin-bottom:0px;
   	padding:6px 0px;
+    text-align: center;
 }
 .navbar-default .navbar-brand {
     color: #fff;
@@ -1208,7 +1216,7 @@ background-image: none;
     text-align: center;
     font-size: 46px;
     margin-bottom: 50px;
-	    font-weight: 600;
+	  font-weight: 600;
     color: #ff0000;
 }
 .section-content h1 {
@@ -1225,6 +1233,150 @@ background-image: none;
 .contact-section{
   padding-top: 40px;
 }
+
+/* Modal Content */
+
+.success-mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.success-content {
+    background-color: #fff;
+    margin: auto;
+    z-index: 1;
+    padding: 5px;
+    border: 1px solid #888;
+    position: fixed;
+    top: 14%;
+    left: 35%;
+    right: 35%;
+    width: 30%;
+    height: auto;
+    border-radius: 25px;
+  }
+
+  .success-msg {
+    font-family: monopro;
+    padding-top: 10px;
+    text-align:center; 
+    color: #000; 
+    font-size:18px; 
+  }
+
+/* Drink Challenge */
+
+.challenge-mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 998;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.challenge-content {
+    background-color: #000;
+    margin: auto;
+    z-index: 1;
+    padding: 5px;
+    border: 1px solid #888;
+    z-index: 999;
+    position: fixed;
+    top: 14%;
+    left: 35%;
+    right: 35%;
+    width: 30%;
+    height: auto;
+    border-radius: 25px;
+  }
+
+  .challenge-msg {
+    font-family: foxhat;
+    padding: 10px;
+    text-align:center; 
+    color: #fff; 
+    font-size:36px; 
+  }
+
+  .yes-btn {
+    font-family: monopro;
+    text-align: center;
+    color: #fff;
+    background-color: #009900;
+    border:1px solid #888;
+    padding-left:20px;
+    padding-right:15px;
+    padding-top: 5px;
+    height: 2.5em;
+    width:100px;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .no-btn {
+    font-family: monopro;
+    text-align: center;
+    color: #fff;
+    background-color: #990000;
+    border:1px solid #888;
+    padding-left:20px;
+    padding-right:15px;
+    padding-top: 5px;
+    height: 2.5em;
+    width: 100px;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+/* The Close Button */
+.close-btn {
+    font-family: monopro;
+    color: #000;
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 18px;
+  }
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;}
+
+.top-logo {
+  margin-top: 8em;
+  height: 400px;
+  width: auto;}
+.nav-logo {
+  height: auto;
+  width: auto;}
+.home-beer {
+  height: auto;
+  width: auto;}
+.foxhat-hr {
+  height: auto;
+  width: auto;}
+.foxhat-hr2 {
+  display: none;}
+.div-sig {
+  padding-right: 150px;}
+.sig {
+  height: auto;
+  width: auto;}
+.beer-can {
+  height: 400px;
+  width: auto;}
+.mobile-only {
+display: none;}
+.desktop-only {
+  display:inline;}
+
 
 label {
     font-size: 17px;
@@ -1347,8 +1499,8 @@ textarea {
     padding: 10px 11px;
 	}
 ul.nav.navbar-nav {
-    padding-left: 23px;
-    padding-top: 5px;
+    /*padding-left: 23px;
+    padding-top: 5px;*/
 }
 .agile_gallery_grids {
     margin: 2em 42px 0;
@@ -1501,6 +1653,23 @@ ul.nav.navbar-nav {
 }
 
 @media screen and (max-width: 768px){
+  h1 {
+  font-size:44px;
+  font-weight:300;
+  letter-spacing:2px;
+ }
+
+.story {
+  font-size:14px;
+  line-height: 25px;
+}
+
+ .the
+{
+  font-size: 30px;
+  letter-spacing:2px;
+}
+
 	.w3l_bannerinfo h3 {
     font-size: 24px;
 }
@@ -1533,13 +1702,83 @@ ul.nav.navbar-nav {
 	.w3l_bannerinfo {
     padding: 7em 0px 0;
 }
+
 .w3l_bannerinfo h3 {
     font-size: 30px;
 }
+
 .carousel-indicators {
     bottom: 20px;
     left: 383px;
 }
+
+.nav-logo {
+  height: 74.3px;
+  width: 162.8px;
+}
+
+.top-logo {
+  display:none;
+}
+
+.home-beer {
+  height: 225px;
+  width: 437.6px;
+}
+
+.foxhat-hr {
+  display:none;
+}
+
+.foxhat-hr2 {
+  display:inline;
+}
+
+.div-sig {
+  padding-right: 50px;
+}
+
+.sig {
+  height: 24px;
+  width: 80px;
+}
+
+.beer-can {
+  height: 300px;
+  width: auto;
+  padding-bottom: 20px;
+}
+
+.beer-div {
+  padding-right:50px;
+  padding-left: 50px;
+}
+
+.footer {
+  margin-left: 10%;
+}
+
+.mobile {
+  font-size: 24px;
+}
+.mobile2 {
+  font-size: 20px;
+}
+
+.mobile-only {
+display: inline;
+text-align: center;
+}
+
+.desktop-only {
+  display:none;
+}
+
+.map iframe {
+  height: 500px;
+  width:90%;
+}
+
 }  
 @media screen and (max-width: 736px){
 a#navLogin {
@@ -1997,3 +2236,86 @@ a#navLogin {
    }
 }    
 /** /Responsive **/
+
+/** GOOGLE MAPS **/
+      #map {
+        width: 100%;
+        height: 500px;
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+
+      #description {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+      }
+
+      #infowindow-content .title {
+        font-weight: bold;
+      }
+
+      #infowindow-content {
+        display: none;
+      }
+
+      #map #infowindow-content {
+        display: inline;
+      }
+
+      .pac-card {
+        margin: 10px 10px 0 0;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        background-color: #fff;
+        font-family: Roboto;
+      }
+
+      #pac-container {
+        padding-bottom: 12px;
+        margin-right: 12px;
+      }
+
+      .pac-controls {
+        display: inline-block;
+        padding: 5px 11px;
+      }
+
+      .pac-controls label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+
+      #pac-input {
+        background-color: #2B2B2B;
+        border:1px solid #777;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 300;
+        margin-left: 0px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 400px;
+        height:2em;
+        left: 32%!important;
+        text-align: center;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+
+      #title {
+        color: #fff;
+        background-color: #4d90fe;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 6px 12px;
+      }
+      #target {
+        width: 345px;
+      }

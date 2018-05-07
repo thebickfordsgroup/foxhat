@@ -10,15 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-use App\Mail\mailme;
- 
+use App\Mail\mailme; 
+
 Route::get('/', function () {
- 
-   Mail::to('craig.davies@wheelandbarrow.com.au')->send(new mailme);
- 
-return view('emails.mailme');
- 
+    return view('pages.index');
 });
-Route::get('/', function () {
-    return view('index');
-});
+
+Route::post('contact', 'PagesController@postContact');
