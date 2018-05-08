@@ -2242,6 +2242,7 @@ a#navLogin {
         width: 100%;
         height: 500px;
         color: #000!important;
+        background-color: #f00;
       }
 
       /* Optional: Makes the sample page fill the window. */
@@ -2293,6 +2294,7 @@ a#navLogin {
 
       #pac-input {
         background-color: #2B2B2B;
+        color: #fff;
         border:1px solid #777;
         font-family: Roboto;
         font-size: 18px;
