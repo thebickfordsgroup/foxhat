@@ -1,5 +1,5 @@
 /bootstrap/compiled.php
-/Vendor
+/vendor
 
 /build/logs
 /build/coverage
