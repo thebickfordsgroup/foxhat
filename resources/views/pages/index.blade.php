@@ -23,11 +23,11 @@
         <img src="/images/wait.png" /><br/><br/>
         <strong>Are you of legal drinking age in your country?</b><br/><br/>
       </p>
-      <div style="padding-left: 50px;">
+      <div class="challenge-div">
           <button class="yes-btn" type="button" onclick="enterWebsite()">YES</button>
-          <span style="color: #fff; font-family: monopro; font-size: 18px;">&nbsp; Continue To Foxhat Website</span><br/><br/>
+          <span class="desktop-only" style="color: #fff; font-family: monopro; font-size: 18px;">&nbsp; Continue To Foxhat Website</span><br/><br/>
           <button class="no-btn" type="button" onclick="exitWebsite()">NO</button>
-          <span style="color: #fff; font-family: monopro; font-size: 18px;">&nbsp; Get Me Out Of Here</span><br/><br/> 
+          <span class="desktop-only" style="color: #fff; font-family: monopro; font-size: 18px;">&nbsp; Get Me Out Of Here</span><br/><br/> 
           <button id="myBtn" style="display: none;"></button>
       </div>
       <div style="float: right; padding-right:10px; padding-bottom:5px;">
@@ -296,8 +296,8 @@
                 userId: '1649343184',
                 sortBy: 'most-recent',
                 limit: '6',
-                resolution: 'low_resolution',
-                template: '<div class="col-md-4" style="padding:5px!important"><img style="width:100%;border:1px solid #aaa;" src="@{{image}}" /></div>',
+                resolution: 'thumbnail',
+                template: '<div class="col-md-2" style="padding:5px!important"><img style="border:1px solid #aaa;" src="@{{image}}" /></div>',
             });
             feed.run();
     </script>
@@ -309,7 +309,7 @@
                 userId: '1649343184',
                 sortBy: 'most-recent',
                 limit: '6',
-                resolution: 'low_resolution',
+                resolution: 'thumbnail',
                 template: '<div class="col-md-4" style="padding:5px!important"><img style="width:75%;border:1px solid #aaa;" src="@{{image}}" /></div>',
             });
             feed.run();
