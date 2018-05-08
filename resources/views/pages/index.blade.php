@@ -87,8 +87,6 @@
       
       function initAutocomplete() {
 
-      @include('partials.stockists')
-
         var map = new google.maps.Map(document.getElementById('map'), 
         {
           center: {lat: -28.000, lng: 133.000},
@@ -156,25 +154,48 @@
           map.fitBounds(bounds);
         });
 
-   var infowindow = new google.maps.InfoWindow();
+        var infowindow = new google.maps.InfoWindow();
+        var marker, i;
 
-    var marker, i;
+        var icons = {
+          lusty: {
+            icon: '/images/lusty_lager_32x32.png'
+          },
+          metric: {
+            icon: '/images/metric_ipa_32x32.png'
+          },
+          phat: {
+            icon: '/images/phat_mongrel_32x32.png'
+          },
+          pelt: {
+            icon: '/images/red_pelt_32x32.png'
+          },
+          full: {
+            icon: '/images/full_mongrel_32x32.png'
+          }
+        };
 
-    for (i = 0; i < locations.length; i++) {  
-      marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-        map: map
-      });
 
-      google.maps.event.addListener(marker, 'click', (function(marker, i) {
-        return function() {
-          infowindow.setContent(locations[i][0]);
-          infowindow.open(map, marker);
-        }
-      })(marker, i));
-    }
+      @include('partials.stockists')
 
-      }
+
+        // Create markers.
+        features.forEach(function(feature) {
+          var marker = new google.maps.Marker({
+            position: feature.position,
+            icon: icons[feature.type].icon,
+            map: map
+          });
+
+          google.maps.event.addListener(marker, 'click', (function(marker, i) {
+            return function() {
+              infowindow.setContent(feature.name);
+              infowindow.open(map, marker);
+            }
+          })(marker, i));
+
+        });
+  }
 
 
     </script>
