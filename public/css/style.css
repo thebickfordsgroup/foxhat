@@ -96,35 +96,35 @@ h2, h3, h4, h5, h6
 .beer-pink {
   height: 450px;
   border:6px solid #e57ab1;
-  border-left:24px solid #e57ab1;
+  border-left:18px solid #e57ab1;
   background-color: #000;
   text-align: center;
 }
 .beer-blue {
   height: 450px;
   border:6px solid #45b4e2;
-  border-left:24px solid #45b4e2;
+  border-left:18px solid #45b4e2;
   background-color: #000;
   text-align: center;
 }
 .beer-yellow {
   height: 450px;
   border:6px solid #ffd33d;
-  border-left:24px solid #ffd33d;
+  border-left:18px solid #ffd33d;
   background-color: #000;
   text-align: center;
 }
 .beer-red {
   height: 450px;
   border:6px solid #f0493e;
-  border-left:24px solid #f0493e;
+  border-left:18px solid #f0493e;
   background-color: #000;
   text-align: center;
 }
 .beer-orange {
   height: 450px;
   border:6px solid #b99e4a;
-  border-left:24px solid #b99e4a;
+  border-left:18px solid #b99e4a;
   background-color: #000;
   text-align: center;
 }
