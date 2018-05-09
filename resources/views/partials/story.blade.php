@@ -9,7 +9,7 @@
         <div class="main-body" style="padding-top:100px; text-align: center;">
             <img class="home-beer" src="images/beers.png">
         </div>
-        <div id="story" class="main-body" style="padding-top:100px; text-align: center;">
+        <div id="story" class="main-body hide-when-small" style="padding-top:100px; text-align: center;">
             <img class="foxhat-hr" src="images/foxhat_hr.png">
             <img  class="foxhat-hr2" src="images/foxhat_hr2.png">
         </div>
@@ -30,12 +30,12 @@
               OF PASSION AND LIFE. IT HAS COME TIME UNLEASH THE INNER BEAST
 
               WITH EDGY AND BOLD FLAVOURS THAT PUSH THE BOUNDARIES. DRINK UP!</p>
-              <div class="div-sig" style="text-align: right; padding-top: 50px;">
+              <div class="div-sig hide-when-small" style="text-align: right; padding-top: 50px;">
                 <img class="sig" src="images/signature.png">
               </div>
             </div>
         </div>
-        <div id="beer" class="main-body" style="padding-top:50px; text-align: center;">
+        <div id="beer" class="main-body hide-when-small" style="padding-top:50px; text-align: center;">
             <img  class="foxhat-hr" src="images/foxhat_hr.png">
             <img  class="foxhat-hr2" src="images/foxhat_hr2.png">
         </div>
@@ -46,17 +46,21 @@
               <img class="beer-can" src="images/lusty_lager.png" height="450">
             </div>
             <div class="col-md-6 beer-pink" style="padding-top: 20px">
-              <div class="beer-pink-title mobile">STRONG LAGER</div>
-                  <span style="text-align: left;">
-                    <span class="beer-pink-body">
-                        A STRONG HOPPY LAGER,<br/>FERMENTED COOL AND CLEAN...</br>AND HOPPED USING A HEAVY HAND.<br/><br/>
-                        <span style="color:#fff;">CLEAN AND FRESH WITH VIBRANT<br/>HOP CHARACTERS OF APRICOT,<br/>MELON AND TROPICAL FRUIT.</span>
-                    </span>
-                  </span>
-                  <div class="footer">
-                    <a href="https://www.sippify.com.au/search?q=fox" target="_new"><img src="images/pink_footer.png"></a>
-                  </div> 
-              </div>          
+                <div style="height: 80%;">
+                    <div class="beer-pink-title mobile">STRONG LAGER</div>
+                        <span style="text-align: left;">
+                          <span class="beer-pink-body">
+                              A STRONG HOPPY LAGER,<br/>FERMENTED COOL AND CLEAN...</br>AND HOPPED USING A HEAVY HAND.<br/><br/>
+                              <span style="color:#fff;">CLEAN AND FRESH WITH VIBRANT<br/>HOP CHARACTERS OF APRICOT,<br/>MELON AND TROPICAL FRUIT.</span>
+                          </span>
+                        </span>
+                    </div>  
+                    <div>
+                      <a href="https://www.sippify.com.au/search?q=fox" target="_new">
+                        <img class="beer-footer" src="images/pink_footer.png">
+                      </a>
+                    </div>
+                </div>
             </div>
           </div>
 
@@ -66,6 +70,7 @@
                 <img class="beer-can" src="images/metric_ipa.png" height="450">
               </div>
               <div class="col-md-6 beer-blue" style="padding-top: 20px">
+                <div style="height: 80%;">
                 <div class="beer-blue-title mobile">WEST COAST IPA</div>
                     <span style="text-align: left;">
                       <span class="beer-blue-body">
@@ -73,12 +78,15 @@
                           <span style="color:#fff;">RICH AND BOLD, THIS IS A<br/>WELL BALANCED BEER WITH PINE<br/>AND FRUIT AROMAS, BALANCED<br/>BY LAYERS OF MALT. IT HAS<br/> AN INTENSE, LONG, LINGERING<br/>FINISH.</span>
                       </span>
                     </span>
-                    <div class="footer">
-                      <a href="https://www.sippify.com.au/search?q=fox" target="_new"><img src="images/blue_footer.png"></a>
-                    </div> 
-                </div>          
-              </div>
+                  </div>  
+                  <div>
+                      <a href="https://www.sippify.com.au/search?q=fox" target="_new">
+                        <img class="beer-footer" src="images/blue_footer.png">
+                      </a>
+                    </div>
+                </div>
             </div>
+          </div>
 
             <!-- PHAT MONGREL -->
             <div class="container beer-div" style="padding-top:75px;">
@@ -86,6 +94,7 @@
                 <img class="beer-can" src="images/phat_mongrel.png" height="450">
               </div>
               <div class="col-md-6 beer-yellow" style="padding-top: 20px">
+                <div style="height: 80%;">
                 <div class="beer-yellow-title mobile">OATMEAL STOUT</div>
                     <span style="text-align: left;">
                       <span class="beer-yellow-body">
@@ -93,12 +102,15 @@
                           <span style="color:#fff;">DEEP BLACK IN COLOUR, WITH <br/>A DELICIOUSLY CREAMY HEAD.<br/>THE PUNGENT, COMPLEX HOP<br/>AROMA COMBINES WITH THE RICH<br/>ROASTED CHOCOLATE MALT BODY.</span>
                       </span>
                     </span>
-                    <div class="footer">
-                      <a href="https://www.sippify.com.au/search?q=fox" target="_new"><img src="images/yellow_footer.png"></a>
-                    </div> 
-                </div>          
-              </div>
+                  </div>  
+                  <div>
+                      <a href="https://www.sippify.com.au/search?q=fox" target="_new">
+                        <img class="beer-footer" src="images/yellow_footer.png">
+                      </a>
+                    </div>
+                </div>
             </div>
+          </div>
 
             <!-- RED PELT -->
             <div class="container beer-div" style="padding-top:75px;">
@@ -106,17 +118,23 @@
                 <img class="beer-can" src="images/red_pelt.png" height="450">
               </div>
               <div class="col-md-6 beer-red" style="padding-top: 20px">
+                <div style="height: 80%;">
                 <div class="beer-red-title mobile">INDIA RED ALE</div>
+                    <span style="text-align: left;">
                       <span class="beer-red-body">
-                          A SALUTE TO RED PELTS<br/>EVERYWHERE: COCK-SURE,<br/>A  LITTLE ANGRY AND MAD<br/>AS A HATTER.<br/><br/>
+                          A SALUTE TO RED PELTS EVERYWHERE:<br />COCK-SURE, A LITTLE ANGRY<br/>AND MAD AS A HATTER.<br/><br/>
                           <span style="color:#fff;">DEEP, LUSCIOUS RED VELVET.<br/>MALT BURSTS ONTO YOUR TONGUE<br/>AND THE RAGING HOPS KICK IN<br/>BEFORE THE WARMING ALCOHOL<br/>JOINS THE FRAY. HOPPYNESS AND<br/>WARMING MALT GOODNESS.</span>
                       </span>
-                    <div class="footer">
-                      <a href="https://www.sippify.com.au/search?q=fox" target="_new"><img src="images/red_footer.png"></a>
-                    </div> 
-                </div>          
-              </div>
+                    </span>
+                  </div>  
+                  <div>
+                      <a href="https://www.sippify.com.au/search?q=fox" target="_new">
+                        <img class="beer-footer" src="images/red_footer.png">
+                      </a>
+                    </div>
+                </div>
             </div>
+          </div>
 
             <!-- FULL MONGREL -->
             <div class="container beer-div" style="padding-top:75px;">
@@ -124,6 +142,7 @@
                 <img class="beer-can" src="images/full_mongrel.png" height="450">
               </div>
               <div class="col-md-6 beer-orange" style="padding-top: 20px">
+                <div style="height: 80%;">
                 <div class="beer-orange-title mobile2">RUSSIAN IMPERIAL STOUT</div>
                     <span style="text-align: left;">
                       <span class="beer-orange-body">
@@ -131,11 +150,14 @@
                           <span style="color:#fff;">BANGS OF DARK ROASTED MALT<br/>GOODNESS. COFFEE, CACAO AND<br/>SLIGHTLY BURNT. ROUNDED OUT<br/>WITH THE EARLY FRUIT SPICE.<br/>VOLUPTUOUSLY FULL BODIED.</span>
                       </span>
                     </span>
-                    <div class="footer">
-                      <a href="https://www.sippify.com.au/search?q=fox" target="_new"><img src="images/orange_footer.png"></a>
-                    </div> 
-                </div>          
-              </div>
+                  </div>  
+                  <div>
+                      <a href="https://www.sippify.com.au/search?q=fox" target="_new">
+                        <img class="beer-footer" src="images/orange_footer.png">
+                      </a>
+                    </div>
+                </div>
             </div>
+          </div>
         </div>
     </div>

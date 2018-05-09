@@ -20,7 +20,7 @@
     <div class="challenge-mask" id="challengeMask"></div>
     <div class="challenge-content" id="challengeModal">
       <p class="challenge-msg">
-        <img src="/images/wait.png" /><br/><br/>
+        <img class="img-wait" src="/images/wait.png" /><br/><br/>
         <strong>Are you of legal drinking age in your country?</b><br/><br/>
       </p>
       <div class="challenge-div">
@@ -212,34 +212,31 @@
   </div>
 
   <div class="container" style="padding-top: 50px;">
-    <div class="col-md-4"></div>
-    <div class="col-md-4" style="text-align: center;">
+    <div class="col-md-12" style="text-align: center;">
       <a href="https://www.facebook.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-        <img src="/images/social_icons_fb.png" alt="Facebook" title="Facebook" />
+        <img class="social-icon" src="/images/social_icons_fb.png" alt="Facebook" title="Facebook" />
       </a>
       <a href="https://www.instagram.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-        <img src="/images/social_icons_ig.png" alt="Instagram" title="Instagram" />
+        <img class="social-icon" src="/images/social_icons_ig.png" alt="Instagram" title="Instagram" />
       </a>
       <a href="https://www.twitter.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-        <img src="/images/social_icons_tw.png" alt="Twitter" title="Twitter" />
+        <img class="social-icon" src="/images/social_icons_tw.png" alt="Twitter" title="Twitter" />
       </a>
       <a href="https://www.untappd.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-        <img src="/images/social_icons_ut.png" alt="Untappd" title="Untappd" />
+        <img class="social-icon" src="/images/social_icons_ut.png" alt="Untappd" title="Untappd" />
       </a>
     </div>
-    <div class="col-md-4"></div>
   </div>
 
 
-  <div class="main-body" style="padding-top:50px; text-align: center;">
+  <div class="main-body hide-when-small" style="padding-top:50px; text-align: center;">
       <img  class="foxhat-hr" src="images/foxhat_hr.png">
       <img  class="foxhat-hr2" src="images/foxhat_hr2.png">
   </div>
 
 
   <div class="container">
-    <div class="col-md-4"></div>
-    <div class="col-md-4" style="padding-top: 50px;">
+    <div class="col-md-12" style="padding-top: 50px;">
       <p style="text-align: center;">
         <a href="">Terms &amp; Conditions</a> &nbsp; | &nbsp; <a href="">Privacy Statement</a> 
         <br/><br/>
@@ -247,7 +244,6 @@
       </p>
       <br/><br/>
   </div>
-  <div class="col-md-4"></div>
 </div>
 
 
@@ -310,7 +306,7 @@
                 sortBy: 'most-recent',
                 limit: '6',
                 resolution: 'thumbnail',
-                template: '<div class="col-md-4" style="padding:5px!important"><img style="width:75%;border:1px solid #aaa;" src="@{{image}}" /></div>',
+                template: '<div class="col-md-12" style="padding:5px!important;text-align:center;"><img style="width:50%;border:1px solid #aaa;" src="@{{image}}" /></div>',
             });
             feed.run();
     </script>
