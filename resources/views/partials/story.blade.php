@@ -8,16 +8,16 @@
 
         <div class="container social-div" style="padding-top: 50px;">
           <div class="col-md-12" style="text-align: center;">
-            <a href="https://www.facebook.com/foxhatbrewing" target="_blank" style="padding: 20px;">
+            <a class="social-links" href="https://www.facebook.com/foxhatbrewing" target="_blank" style="padding: 20px;">
               <img class="social-icon-fb" src="/images/social_icons_fb.png" alt="Facebook" title="Facebook" />
             </a>
-            <a href="https://www.instagram.com/foxhatbrewing" target="_blank" style="padding: 20px;">
+            <a class="social-links" href="https://www.instagram.com/foxhatbrewing" target="_blank" style="padding: 20px;">
               <img class="social-icon-ig" src="/images/social_icons_ig.png" alt="Instagram" title="Instagram" />
             </a>
-            <a href="https://www.twitter.com/foxhatbrewing" target="_blank" style="padding: 20px;">
+            <a class="social-links" href="https://www.twitter.com/foxhatbrewing" target="_blank" style="padding: 20px;">
               <img class="social-icon-tw" src="/images/social_icons_tw.png" alt="Twitter" title="Twitter" />
             </a>
-            <a href="https://www.untappd.com/foxhatbrewing" target="_blank" style="padding: 20px;">
+            <a class="social-links" href="https://www.untappd.com/foxhatbrewing" target="_blank" style="padding: 20px;">
               <img class="social-icon-ut" src="/images/social_icons_ut.png" alt="Untappd" title="Untappd" />
             </a>
           </div>
@@ -68,8 +68,8 @@
                     <div class="beer-pink-title mobile">STRONG LAGER</div>
                         <span style="text-align: left;">
                           <span class="beer-pink-body">
-                              A STRONG HOPPY LAGER,<br/>FERMENTED COOL AND CLEAN...</br>AND HOPPED USING A HEAVY HAND.<br/><br/>
-                              <span style="color:#fff;">CLEAN AND FRESH WITH VIBRANT<br/>HOP CHARACTERS OF APRICOT,<br/>MELON AND TROPICAL FRUIT.</span>
+                              A STRONG HOPPY LAGER, FERMENTED COOL AND CLEAN... AND HOPPED USING A HEAVY HAND.<br/><br/>
+                              <span style="color:#fff;">CLEAN AND FRESH WITH VIBRANT HOP CHARACTERS OF APRICOT, MELON AND TROPICAL FRUIT.</span>
                           </span>
                         </span>
                     </div>  
@@ -92,8 +92,8 @@
                 <div class="beer-blue-title mobile">WEST COAST IPA</div>
                     <span style="text-align: left;">
                       <span class="beer-blue-body">
-                          BEER SIMPLIFIED: GRAIN AND<br/>HOPS WEIGHED IN KILOS, BEER<br/>SOLD  IN LITRES.<br/><br/>
-                          <span style="color:#fff;">RICH AND BOLD, THIS IS A<br/>WELL BALANCED BEER WITH PINE<br/>AND FRUIT AROMAS, BALANCED<br/>BY LAYERS OF MALT. IT HAS<br/> AN INTENSE, LONG, LINGERING<br/>FINISH.</span>
+                          BEER SIMPLIFIED: GRAIN AND HOPS WEIGHED IN KILOS, BEER SOLD IN LITRES.<br/><br/>
+                          <span style="color:#fff;">RICH AND BOLD, THIS IS A WELL BALANCED BEER WITH PINE AND FRUIT AROMAS, BALANCED BY LAYERS OF MALT. IT HAS AN INTENSE, LONG, LINGERING FINISH.</span>
                       </span>
                     </span>
                   </div>  
@@ -116,8 +116,8 @@
                 <div class="beer-yellow-title mobile">OATMEAL STOUT</div>
                     <span style="text-align: left;">
                       <span class="beer-yellow-body">
-                          A BIG PHAT ROUNDED AMERICAN<br/>STYLE STOUT FINISHED WITH<br/>A NITRO CHARGE.<br/><br/>
-                          <span style="color:#fff;">DEEP BLACK IN COLOUR, WITH <br/>A DELICIOUSLY CREAMY HEAD.<br/>THE PUNGENT, COMPLEX HOP<br/>AROMA COMBINES WITH THE RICH<br/>ROASTED CHOCOLATE MALT BODY.</span>
+                          A BIG PHAT ROUNDED AMERICAN STYLE STOUT FINISHED WITH A NITRO CHARGE.<br/><br/>
+                          <span style="color:#fff;">DEEP BLACK IN COLOUR, WITH A DELICIOUSLY CREAMY HEAD. THE PUNGENT, COMPLEX HOP AROMA COMBINES WITH THE RICH ROASTED CHOCOLATE MALT BODY.</span>
                       </span>
                     </span>
                   </div>  
@@ -140,8 +140,8 @@
                 <div class="beer-red-title mobile">INDIA RED ALE</div>
                     <span style="text-align: left;">
                       <span class="beer-red-body">
-                          A SALUTE TO RED PELTS EVERYWHERE:<br />COCK-SURE, A LITTLE ANGRY<br/>AND MAD AS A HATTER.<br/><br/>
-                          <span style="color:#fff;">DEEP, LUSCIOUS RED VELVET.<br/>MALT BURSTS ONTO YOUR TONGUE<br/>AND THE RAGING HOPS KICK IN<br/>BEFORE THE WARMING ALCOHOL<br/>JOINS THE FRAY. HOPPYNESS AND<br/>WARMING MALT GOODNESS.</span>
+                          A SALUTE TO RED PELTS EVERYWHERE: COCK-SURE, A LITTLE ANGRY AND MAD AS A HATTER.<br/><br/>
+                          <span style="color:#fff;">DEEP, LUSCIOUS RED VELVET. MALT BURSTS ONTO YOUR TONGUE AND THE RAGING HOPS KICK IN BEFORE THE WARMING ALCOHOL JOINS THE FRAY. HOPPYNESS AND WARMING MALT GOODNESS.</span>
                       </span>
                     </span>
                   </div>  
@@ -164,8 +164,8 @@
                 <div class="beer-orange-title mobile2">RUSSIAN IMPERIAL STOUT</div>
                     <span style="text-align: left;">
                       <span class="beer-orange-body">
-                          PHAT MONGREL’S OLDER,<br/>INAPPROPRIATE UNCLE. BIGGER<br/>BODIED,MORE BITTER, WITH<br/>EXTRA MONGREL.<br/><br/>
-                          <span style="color:#fff;">BANGS OF DARK ROASTED MALT<br/>GOODNESS. COFFEE, CACAO AND<br/>SLIGHTLY BURNT. ROUNDED OUT<br/>WITH THE EARLY FRUIT SPICE.<br/>VOLUPTUOUSLY FULL BODIED.</span>
+                          PHAT MONGREL’S OLDER, INAPPROPRIATE UNCLE. BIGGER BODIED,MORE BITTER, WITH EXTRA MONGREL.<br/><br/>
+                          <span style="color:#fff;">BANGS OF DARK ROASTED MALT GOODNESS. COFFEE, CACAO AND SLIGHTLY BURNT. ROUNDED OUT WITH THE EARLY FRUIT SPICE. VOLUPTUOUSLY FULL BODIED.</span>
                       </span>
                     </span>
                   </div>  
