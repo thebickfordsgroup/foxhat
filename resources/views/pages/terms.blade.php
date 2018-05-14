@@ -23,7 +23,7 @@
 
 
 <section>
-    <div class="row" style="padding: 150px;">
+    <div class="row privacy-div" style="margin-top:150px;">
         <div class="container privacy">
             <h1>Terms and Conditions</h1>
             <p class="-paragraph-font">This site is made available by VOK Beverages Pty Ltd and is referred to as “us”, “we” or “our” in these Terms and Conditions.</p>

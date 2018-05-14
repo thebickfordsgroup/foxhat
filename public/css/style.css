@@ -75,6 +75,8 @@ h1 {
   padding: 20px 0px 20px 0px;
 }
 
+.privacy-div {padding: 0px 20px 0px 20px}
+
 .privacy p {
   font-family: monopro;
   text-align: left;
@@ -1451,11 +1453,16 @@ display: none;}
 @media screen and (max-width: 768px)
 {
     h1 {font-size:44px;font-weight:300;letter-spacing:2px;}
-    .story {font-size:14px;line-height: 25px;}
+    .story {font-size:14px;line-height: 20px;}
     .the{font-size: 30px;letter-spacing:2px;}
     .navbar-right {float: right!important; margin-right: -10px;}
     .nav-logo {height: 74.3px; width: 162.8px;}
     .top-logo {  display:none;}
+    .social-icon-fb {width: 19.5px;}
+    .social-icon-ig {width: 30.8px;}
+    .social-icon-tw {width: 35.3px;}
+    .social-icon-ut {width: 41.3px;}
+    .social-div {padding-top: 100px!important;}
     .home-beer {  height: 183.38px;  width: 424.13px;}
     .foxhat-hr {  display:none;}
     .foxhat-hr2 {  display:inline;}
@@ -1482,6 +1489,7 @@ display: none;}
 @media screen and (max-width: 640px)
 {
   #pac-input {width:300px!important; font-size: 14px!important; }
+  .privacy h1 {font-size: 30px;}
 }
 
 @media screen and (max-width: 543px)
@@ -1491,6 +1499,7 @@ display: none;}
   .beer-pink-body, .beer-blue-body, .beer-yellow-body, .beer-red-body, .beer-orange-body {font-size:14px;}
   .beer-footer {width:272px;height:48.8px;}
   .beer-div-80{height: 84%;}
+  .privacy h1 {font-size: 26px;}
 }
 
 @media screen and (max-width: 503px)
@@ -1513,7 +1522,11 @@ display: none;}
     .beer-orange-title {padding-left: 12px;padding-right: 12px;}
     .beer-pink-body, .beer-blue-body, .beer-yellow-body, .beer-red-body, .beer-orange-body {font-size:12px;}
     .beer-footer {width:217.6px;height:39.04px;}
-  .beer-div-80{height: 88%;}
+    .beer-div-80{height: 88%;}
+    .challenge-content {top: 14%; left: 10%; right: 10%; width: 80%;}
+    .age-logo {width:162.75px;}
+    h1 {font-size: 32px;}
+    .privacy h1 {font-size: 22px;}
 } 
 
 /** /Responsive **/

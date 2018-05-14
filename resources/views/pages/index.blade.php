@@ -20,7 +20,7 @@
     <div class="challenge-mask" id="challengeMask"></div>
     <div class="challenge-content" id="challengeModal">
       <p class="challenge-msg">
-        <img src="/images/nav-logo.png" /><br/>
+        <img class="age-logo" src="/images/nav-logo.png" /><br/>
         <img class="age-hr" src="images/foxhat_hr3.png">
         <br/>ARE YOU OVER<br/> 18 YEARS OF AGE?<br/>
         <img class="age-hr" src="images/foxhat_hr3.png">

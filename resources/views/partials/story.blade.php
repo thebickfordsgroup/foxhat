@@ -6,19 +6,19 @@
         </div>
 
 
-        <div class="container" style="padding-top: 50px;">
+        <div class="container social-div" style="padding-top: 50px;">
           <div class="col-md-12" style="text-align: center;">
             <a href="https://www.facebook.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-              <img class="social-icon" src="/images/social_icons_fb.png" alt="Facebook" title="Facebook" />
+              <img class="social-icon-fb" src="/images/social_icons_fb.png" alt="Facebook" title="Facebook" />
             </a>
             <a href="https://www.instagram.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-              <img class="social-icon" src="/images/social_icons_ig.png" alt="Instagram" title="Instagram" />
+              <img class="social-icon-ig" src="/images/social_icons_ig.png" alt="Instagram" title="Instagram" />
             </a>
             <a href="https://www.twitter.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-              <img class="social-icon" src="/images/social_icons_tw.png" alt="Twitter" title="Twitter" />
+              <img class="social-icon-tw" src="/images/social_icons_tw.png" alt="Twitter" title="Twitter" />
             </a>
             <a href="https://www.untappd.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-              <img class="social-icon" src="/images/social_icons_ut.png" alt="Untappd" title="Untappd" />
+              <img class="social-icon-ut" src="/images/social_icons_ut.png" alt="Untappd" title="Untappd" />
             </a>
           </div>
         </div>

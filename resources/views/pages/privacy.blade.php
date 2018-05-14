@@ -48,7 +48,7 @@
 
 
 <section>
-    <div class="row" style="padding: 150px;">
+    <div class="row privacy-div" style="margin-top:150px;">
         <div class="container privacy">
             <h1>Privacy Statement</h1>
             <p>Vok Beverages Pty Ltd is committed to protecting the privacy of individual’s personal information. We will, from time to time, collect and use personal information. This Privacy Statement sets out the policies relating to the collection, use and disclosure of personal information you provide to us in connection with your use of the site and will assist you in understanding what we may do with information we collect from you.</p>
