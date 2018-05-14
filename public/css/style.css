@@ -1500,14 +1500,16 @@ display: none;}
   .beer-pink-body, .beer-blue-body, .beer-yellow-body, .beer-red-body, .beer-orange-body {font-size:14px;}
   .beer-footer {width:272px;height:48.8px;}
   .beer-div-80{height: 84%;}
+  .beer-div { padding-right:25px;  padding-left: 25px;}
   .privacy h1 {font-size: 26px;}
 }
 
 @media screen and (max-width: 503px)
 {	
-    .home-beer {height:137.54px; width:318.1px;}
+    .home-beer {height:137.5px; width:318.1px;}
     h1 {font-size: 34px;}
     .the {font-size: 26px;}
+    .beer-div { padding-right:10px;  padding-left: 10px;}
     .hide-when-small {display:none;}
     .gmnoprint {display: none;}
     #pac-input {width:200px!important;}
@@ -1528,14 +1530,20 @@ display: none;}
     .challenge-msg {font-size: 24px;}
     .age-logo {width:162.8px;}
     h1 {font-size: 28px;}
+    .the {font-size: 22px;}
     .privacy h1 {font-size: 22px;}
 } 
 
 @media screen and (max-width: 380px)
 {
-    .beer-footer {width:163.2px;height:29.3px;}
+    .home-beer {height:103.1px; width:238.6px;}
     .challenge-content {top: 5%; left: 5%; right: 5%; width: 90%;}
-    h1 {font-size: 24px;}
+    h1 {font-size: 20px;}    
+    .the {font-size: 18px;}
+    .beer-div { padding-right:5px;  padding-left: 5px;}
+    .img-heading1 {width:311px;height:26px;}
+    .img-heading2 {width:237px;height:26px;}
+    .img-heading3 {width:311px;height:26px;}
 } 
 
 /** /Responsive **/

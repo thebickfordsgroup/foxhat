@@ -48,7 +48,7 @@
 
 <div id="instagram">
 	<div id="story" class="main-body" style="padding-top:150px; padding-bottom:50px; text-align: center;">
-		<img src="images/instagram_header.png">
+		<img class="img-heading1" src="images/instagram_header.png">
 	</div>
 	<div class="container">				
     <div class="desktop-only" id="fh-instafeed"></div>
@@ -58,7 +58,7 @@
 
 
 <div id="find" class="main-body" style="padding-top:100px; padding-bottom:50px; text-align: center;">
-	<img src="images/findus_header.png">
+	<img class="img-heading2" src="images/findus_header.png">
 </div>
 
 <div class="container" style="text-align: center;">
@@ -199,7 +199,7 @@
 
 	<div id="contactus">
     <div id="story" class="main-body" style="padding-top:100px; text-align: center;">
-      <img src="images/contactus_header.png">
+      <img class="img-heading3" src="images/contactus_header.png">
     </div>
     <section id="contact" style="padding-top:50px;""> 
       @include('partials.contact')
