@@ -20,20 +20,15 @@
     <div class="challenge-mask" id="challengeMask"></div>
     <div class="challenge-content" id="challengeModal">
       <p class="challenge-msg">
-        <img class="img-wait" src="/images/wait.png" /><br/><br/>
-        <strong>Are you of legal drinking age in your country?</b><br/><br/>
+        <img src="/images/nav-logo.png" /><br/>
+        <img class="age-hr" src="images/foxhat_hr3.png">
+        <br/>ARE YOU OVER<br/> 18 YEARS OF AGE?<br/>
+        <img class="age-hr" src="images/foxhat_hr3.png">
       </p>
       <div class="challenge-div">
-          <button class="yes-btn" type="button" onclick="enterWebsite()">YES</button>
-          <span class="desktop-only" style="color: #fff; font-family: monopro; font-size: 18px;">&nbsp; Continue To Foxhat Website</span><br/><br/>
-          <button class="no-btn" type="button" onclick="exitWebsite()">NO</button>
-          <span class="desktop-only" style="color: #fff; font-family: monopro; font-size: 18px;">&nbsp; Get Me Out Of Here</span><br/><br/> 
-          <button id="myBtn" style="display: none;"></button>
-      </div>
-      <div style="float: right; padding-right:10px; padding-bottom:5px;">
-          <a href="https://drinkwise.org.au/">
-            <img src="/images/drinkwise.png" />
-          </a>
+          <button class="age-btn-no" type="button" onclick="exitWebsite()">NO</button>
+          <button class="age-btn-yes" type="button" onclick="enterWebsite()">YES</button>
+          <button id="myBtn" style="display: none;"></button><br/><br/>
       </div>
     </div>
 <?php
@@ -211,23 +206,6 @@
     </section>
   </div>
 
-  <div class="container" style="padding-top: 50px;">
-    <div class="col-md-12" style="text-align: center;">
-      <a href="https://www.facebook.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-        <img class="social-icon" src="/images/social_icons_fb.png" alt="Facebook" title="Facebook" />
-      </a>
-      <a href="https://www.instagram.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-        <img class="social-icon" src="/images/social_icons_ig.png" alt="Instagram" title="Instagram" />
-      </a>
-      <a href="https://www.twitter.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-        <img class="social-icon" src="/images/social_icons_tw.png" alt="Twitter" title="Twitter" />
-      </a>
-      <a href="https://www.untappd.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-        <img class="social-icon" src="/images/social_icons_ut.png" alt="Untappd" title="Untappd" />
-      </a>
-    </div>
-  </div>
-
 
   <div class="main-body hide-when-small" style="padding-top:50px; text-align: center;">
       <img  class="foxhat-hr" src="images/foxhat_hr.png">
@@ -238,7 +216,7 @@
   <div class="container">
     <div class="col-md-12" style="padding-top: 50px;">
       <p style="text-align: center;">
-        <a href="">Terms &amp; Conditions</a> &nbsp; | &nbsp; <a href="">Privacy Statement</a> 
+        <a href="/terms" target="_blank">Terms &amp; Conditions</a> &nbsp; | &nbsp; <a href="/privacy" target="_blank">Privacy Statement</a> 
         <br/><br/>
         Copyright &#169; <?php echo date("Y"); ?> Foxhat Brewing
       </p>

@@ -57,6 +57,31 @@ h1 {
   text-align: center;
 }
 
+.privacy h1 {
+  text-align: left;
+  font-size: 36px;
+  letter-spacing: 5px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.privacy h2 {
+  font-family: monopro;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px 0px 20px 0px;
+}
+
+.privacy p {
+  font-family: monopro;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+
 h2, h3, h4, h5, h6 
 {
   margin: 0;
@@ -503,6 +528,7 @@ ul.nav.navbar-nav
 {
   padding-left: 75px;
   padding-top: 30px;
+  margin: 7.5px!important;
 
 }
  .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
@@ -1253,23 +1279,23 @@ background-image: none;
     background-color: #fff;
     margin: auto;
     z-index: 1;
-    padding: 5px;
-    border: 1px solid #888;
+    padding: 25px;
+    border: 3px solid #000;
     position: fixed;
     top: 14%;
-    left: 35%;
-    right: 35%;
-    width: 30%;
+    left: 30%;
+    right: 30%;
+    width: 40%;
     height: auto;
-    border-radius: 25px;
   }
 
   .success-msg {
-    font-family: monopro;
+    font-family: foxhat;
+    font-size: 36px;
+    letter-spacing: 2px;
     padding-top: 10px;
     text-align:center; 
     color: #000; 
-    font-size:18px; 
   }
 
 /* Drink Challenge */
@@ -1288,16 +1314,16 @@ background-image: none;
     background-color: #000;
     margin: auto;
     z-index: 1;
-    padding: 5px;
-    border: 1px solid #888;
+    padding: 10px 20px 10px 20px;
+    border: 3px solid #fff;
     z-index: 999;
     position: fixed;
     top: 14%;
-    left: 25%;
-    right: 25%;
-    width: 50%;
+    left: 30%;
+    right: 30%;
+    width: 40%;
     height: auto;
-    border-radius: 25px;
+    line-height: 60px;
   }
 
   .challenge-msg {
@@ -1305,48 +1331,48 @@ background-image: none;
     padding: 10px;
     text-align:center; 
     color: #fff; 
-    font-size:36px; 
+    font-size:36px;
+    letter-spacing: 5px;
   }
 
-  .yes-btn {
-    font-family: monopro;
-    border-radius: 6px;
+  .age-btn-no {
+    font-family: foxhat;
     text-align: center;
     color: #fff;
-    background-color: #006600;
-    border:1px solid #888;
-    padding-left:20px;
-    padding-right:15px;
-    padding-top: 5px;
-    height: 2.5em;
+    background-color: #333333;
+    border: 3px solid #fff;
+    padding: 10px;
+    height: 3em;
     width:100px;
-    font-size: 18px;
+    font-size: 2em;
     letter-spacing: 2px;
   }
 
-  .no-btn {
-    font-family: monopro;
-    border-radius: 6px;
+  .age-btn-yes {
+    font-family: foxhat;
     text-align: center;
     color: #fff;
-    background-color: #990000;
-    border:1px solid #888;
-    padding-left:20px;
-    padding-right:15px;
-    padding-top: 5px;
-    height: 2.5em;
+    background-color: #333333;
+    border: 3px solid #fff;
+    padding: 10px;
+    margin-left: 50px;
+    height: 3em;
     width:100px;
-    font-size: 18px;
+    font-size: 2em;
     letter-spacing: 2px;
   }
 
 /* The Close Button */
 .close-btn {
-    font-family: monopro;
+    font-family: foxhat;
+    text-align: center;
     color: #000;
-    padding-left:20px;
-    padding-right:20px;
-    font-size: 18px;
+    background-color: #fff;
+    border: 3px solid #000;
+    padding: 10px;
+    height: 2.2em;
+    font-size: 2em;
+    letter-spacing: 2px;
   }
 
 .close:hover,
@@ -1383,7 +1409,7 @@ display: none;}
 .desktop-only {
   display:inline;}
 .challenge-div {
-  padding-left: 50px;}
+  text-align:center;}
 .beer-div-80{
   height: 80%; }
 
@@ -1394,14 +1420,17 @@ display: none;}
   .beer-blue-title, .beer-yellow-title {font-size:28px;}
   .beer-orange-title {font-size:26px; letter-spacing: 2px;}
   .hide-when-small {display:none;}
-  .home-beer {height:320px;widht:622.4px;}
+  .home-beer {height:244.5px;width:565.5px;}
 }
 
 @media screen and (max-width: 999px)
 {
-    .challenge-content {top: 10%; left: 5%; right: 5%; width: 90%;}
-    .challenge-msg {font-size:22px; letter-spacing: 2px;}
+    .challenge-content {top: 14%; left: 20%; right: 20%; width: 60%;}
+    .challenge-msg {font-size:32px; letter-spacing: 2px;}
     .challenge-div {text-align: center; padding-left: 0px;}
+    .age-hr {width:246.75px;}
+    .age-btn-no {height: 3em; font-size: 1.5em; padding:0px;}
+    .age-btn-yes {height: 3em; font-size: 1.5em; padding:0px;}
     .success-content {top: 14%; left: 20%; right: 20%; width: 60%;}
     .img-wait {width: 70px; height: 85.5px;}
     .desktop-only {display:none;}
@@ -1427,7 +1456,7 @@ display: none;}
     .navbar-right {float: right!important; margin-right: -10px;}
     .nav-logo {height: 74.3px; width: 162.8px;}
     .top-logo {  display:none;}
-    .home-beer {  height: 225px;  width: 437.6px;}
+    .home-beer {  height: 183.38px;  width: 424.13px;}
     .foxhat-hr {  display:none;}
     .foxhat-hr2 {  display:inline;}
     .div-sig {  padding-right: 50px;}
@@ -1439,10 +1468,14 @@ display: none;}
     .mobile2 {  font-size: 20px;}
     .mobile-only {display: inline;text-align: center;}
     .desktop-only {  display:none;}
-    .challenge-content {    padding: 5px;  top: 10%;  left: 5%;  right: 5%;  width: 90%;  height: auto;  border-radius: 25px;}
-    .challenge-msg { font-size:22px;  letter-spacing: 2px;}
-    .challenge-div { text-align: center; padding-left: 0px;}
+    .challenge-content {top: 14%; left: 20%; right: 20%; width: 60%;}
+    .challenge-msg {font-size:28px; letter-spacing: 2px;}
+    .challenge-div {text-align: center; padding-left: 0px;}
+    .age-hr {width:165px;}
+    .age-btn-yes {margin: 0px;}
     .success-content {top: 14%; left: 10%; right: 10%; width: 80%;}
+    .success-msg {font-size: 30px;}
+    .success-sig {width:105px; padding-bottom: 20px;}
     #pac-input {left:21%!important;}
 }  
 
@@ -1462,7 +1495,7 @@ display: none;}
 
 @media screen and (max-width: 503px)
 {	
-    .home-beer {height:168.75px; width:328.2px;}
+    .home-beer {height:137.54px; width:318.1px;}
     h1 {font-size: 36px;}
     .the {font-size: 26px;}
     .hide-when-small {display:none;}

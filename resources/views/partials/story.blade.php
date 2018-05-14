@@ -4,9 +4,27 @@
             <div class="col-md-4"><img class="top-logo" src="images/main-logo.png"> </div>
             <div class="col-md-4">&nbsp;</div>
         </div>
-        
 
-        <div class="main-body" style="padding-top:100px; text-align: center;">
+
+        <div class="container" style="padding-top: 50px;">
+          <div class="col-md-12" style="text-align: center;">
+            <a href="https://www.facebook.com/foxhatbrewing" target="_blank" style="padding: 20px;">
+              <img class="social-icon" src="/images/social_icons_fb.png" alt="Facebook" title="Facebook" />
+            </a>
+            <a href="https://www.instagram.com/foxhatbrewing" target="_blank" style="padding: 20px;">
+              <img class="social-icon" src="/images/social_icons_ig.png" alt="Instagram" title="Instagram" />
+            </a>
+            <a href="https://www.twitter.com/foxhatbrewing" target="_blank" style="padding: 20px;">
+              <img class="social-icon" src="/images/social_icons_tw.png" alt="Twitter" title="Twitter" />
+            </a>
+            <a href="https://www.untappd.com/foxhatbrewing" target="_blank" style="padding: 20px;">
+              <img class="social-icon" src="/images/social_icons_ut.png" alt="Untappd" title="Untappd" />
+            </a>
+          </div>
+        </div>
+
+
+        <div class="main-body" style="padding-top:75px; text-align: center;">
             <img class="home-beer" src="images/beers.png">
         </div>
         <div id="story" class="main-body hide-when-small" style="padding-top:100px; text-align: center;">
@@ -27,7 +45,7 @@
               RESPONDED, ‘WEAR THE FOX HAT?’<br/><br/>
               OUR BREWERS HAVE UNLEASHED AND ARE TAKING NO PRISONERS. MUCH
               LIKE HER MAJESTY’S WICKED SENSE OF HUMOUR, THE BREWS ARE FULL
-              OF PASSION AND LIFE. IT HAS COME TIME UNLEASH THE INNER BEAST
+              OF PASSION AND LIFE. IT HAS COME TIME TO UNLEASH THE INNER BEAST
 
               WITH EDGY AND BOLD FLAVOURS THAT PUSH THE BOUNDARIES. DRINK UP!</p>
               <div class="div-sig hide-when-small" style="text-align: right; padding-top: 50px;">

@@ -4,12 +4,17 @@
     @if (Session::has('message'))
     <div class="success-mask" id="myMask"></div>
     <div class="success-content" id="myModal">
+      <br/>
       <p class="success-msg">
-        <img src="/images/email_success.png" /><br/><br/>
-        <b>Thanks for getting in touch</b><br/><br/>We will get back to you as soon as possible</p>
-        <br/>
-          <button class="close-btn" type="button">Close</button><br/><br/>  
-          <button id="myBtn" style="display: none;">Open Modal</button>
+        THANKS FOR GETTING IN TOUCH<br/>WE WILL GET BACK TO YOU ASAP!
+      </p>
+      <div style="text-align: right;">
+        <img class="success-sig" src="/images/signature2.png" />
+      </div>
+      <div class="row">
+        <button class="close-btn" type="button">Close</button><br/><br/>  
+        <button id="myBtn" style="display: none;">Open Modal</button>
+      </div>
     </div>
     @endif
 
@@ -20,7 +25,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <img class="nav-logo" src="images/nav-logo.png" style="padding-left: 25px;">
+      <a href="/">
+        <img class="nav-logo" src="images/nav-logo.png" style="padding-left: 25px;">
+      </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
