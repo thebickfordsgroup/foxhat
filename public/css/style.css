@@ -1505,7 +1505,7 @@ display: none;}
 @media screen and (max-width: 503px)
 {	
     .home-beer {height:137.54px; width:318.1px;}
-    h1 {font-size: 36px;}
+    h1 {font-size: 34px;}
     .the {font-size: 26px;}
     .hide-when-small {display:none;}
     .gmnoprint {display: none;}
@@ -1525,7 +1525,7 @@ display: none;}
     .beer-div-80{height: 88%;}
     .challenge-content {top: 14%; left: 10%; right: 10%; width: 80%;}
     .age-logo {width:162.75px;}
-    h1 {font-size: 32px;}
+    h1 {font-size: 28px;}
     .privacy h1 {font-size: 22px;}
 } 
 
