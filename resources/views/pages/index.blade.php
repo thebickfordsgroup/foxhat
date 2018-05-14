@@ -28,11 +28,27 @@
       <div class="challenge-div">
           <button class="age-btn-no" type="button" onclick="exitWebsite()">NO</button>
           <button class="age-btn-yes" type="button" onclick="enterWebsite()">YES</button>
-          <button id="myBtn" style="display: none;"></button><br/><br/>
+          <button id="myBtn" style="display: none;"></button><br/>
       </div>
     </div>
+    <script type="text/javascript">
+      function enterWebsite()
+      {
+        document.cookie = "challenge-user";
+        location.reload();
+      }
+      function exitWebsite()
+      {
+        window.location.href = "https://drinkwise.org.au/";
+      }
+    </script>
+  </body>
+</html>
+
 <?php
     }
+    else
+    {
 ?>
 
 
@@ -290,19 +306,6 @@
     </script>
   <script type="text/javascript">
 
-    $(document).ready(function() {
-    var defaults = {
-    containerID: 'toTop', // fading element id
-    containerHoverID: 'toTopHover', // fading element hover id
-    scrollSpeed: 1200,
-    easingType: 'linear' 
-    };
-    $().UItoTop({ easingType: 'easeOutQuart' });
-    });
-
-  </script>
-  <script type="text/javascript">
-
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
         || location.hostname == this.hostname) {
@@ -352,3 +355,7 @@ window.onclick = function(event) {
 
 </body>
 </html>
+
+<?php
+    }
+?>
