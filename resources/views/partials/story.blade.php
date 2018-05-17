@@ -6,20 +6,12 @@
         </div>
 
 
-        <div class="container social-div" style="padding-top: 50px;">
-          <div class="col-md-12" style="text-align: center;">
-            <a class="social-links" href="https://www.facebook.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-              <img class="social-icon-fb" src="/images/social_icons_fb.png" alt="Facebook" title="Facebook" />
-            </a>
-            <a class="social-links" href="https://www.instagram.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-              <img class="social-icon-ig" src="/images/social_icons_ig.png" alt="Instagram" title="Instagram" />
-            </a>
-            <a class="social-links" href="https://www.twitter.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-              <img class="social-icon-tw" src="/images/social_icons_tw.png" alt="Twitter" title="Twitter" />
-            </a>
-            <a class="social-links" href="https://www.untappd.com/foxhatbrewing" target="_blank" style="padding: 20px;">
-              <img class="social-icon-ut" src="/images/social_icons_ut.png" alt="Untappd" title="Untappd" />
-            </a>
+        <div class="container social-div" style="padding-top: 50px; text-align: center;">
+          <div class="col-md-12">
+            <button onclick="window.open('https://www.facebook.com/foxhatbrewing','_blank');" class="social-button fb"></button>
+            <button onclick="window.open('https://www.instagram.com/foxhatbrewing','_blank');" class="social-button ig"></button>
+            <button onclick="window.open('https://www.twitter.com/foxhatbrewing','_blank');" class="social-button tw"></button>
+            <button onclick="window.open('https://www.untappd.com/foxhatbrewing','_blank');" class="social-button ut"></button>
           </div>
         </div>
 
@@ -60,12 +52,14 @@
 
         <!-- LUSTY LAGER -->
         <div class="container beer-div" style="padding-top:75px;">
-            <div class="col-md-6" style="text-align: center;">
+            <div class="col-md-6" style="text-align: center; padding-bottom: 20px;">
               <img class="beer-can" src="images/lusty_lager.png" height="450">
             </div>
-            <div class="col-md-6 beer-pink" style="padding-top: 20px">
+            <div class="col-md-6 beer-pink">
+              <div class="row" style="text-align: center;">
+                  <div class="beer-pink-title mobile">STRONG LAGER</div>
+              </div>
                 <div class="beer-div-80">
-                    <div class="beer-pink-title mobile">STRONG LAGER</div>
                         <span style="text-align: left;">
                           <span class="beer-pink-body">
                               A STRONG HOPPY LAGER, FERMENTED COOL AND CLEAN... AND HOPPED USING A HEAVY HAND.<br/><br/>
@@ -73,7 +67,7 @@
                           </span>
                         </span>
                     </div>  
-                    <div>
+                    <div style="text-align: center;">
                       <a href="https://www.sippify.com.au/search?q=fox" target="_new">
                         <img class="beer-footer" src="images/pink_footer.png">
                       </a>
@@ -84,12 +78,14 @@
 
           <!-- METRIC IPA -->
           <div class="container beer-div" style="padding-top:75px;">
-              <div class="col-md-6" style="text-align: center;">
+              <div class="col-md-6" style="text-align: center; padding-bottom: 20px;">
                 <img class="beer-can" src="images/metric_ipa.png" height="450">
               </div>
-              <div class="col-md-6 beer-blue" style="padding-top: 20px">
-                <div class="beer-div-80">
-                <div class="beer-blue-title mobile">WEST COAST IPA</div>
+                <div class="col-md-6 beer-blue" style="padding-top: 20px">
+                  <div class="row" style="text-align: center;">
+                    <div class="beer-blue-title mobile">WEST COAST IPA</div>
+                  </div>
+                  <div class="beer-div-80">
                     <span style="text-align: left;">
                       <span class="beer-blue-body">
                           BEER SIMPLIFIED: GRAIN AND HOPS WEIGHED IN KILOS, BEER SOLD IN LITRES.<br/><br/>
@@ -97,23 +93,26 @@
                       </span>
                     </span>
                   </div>  
-                  <div>
+                  <div style="text-align: center;">
                       <a href="https://www.sippify.com.au/search?q=fox" target="_new">
                         <img class="beer-footer" src="images/blue_footer.png">
                       </a>
-                    </div>
+                  </div>
+                </div>
                 </div>
             </div>
           </div>
 
             <!-- PHAT MONGREL -->
             <div class="container beer-div" style="padding-top:75px;">
-              <div class="col-md-6" style="text-align: center;">
+              <div class="col-md-6" style="text-align: center; padding-bottom: 20px;">
                 <img class="beer-can" src="images/phat_mongrel.png" height="450">
               </div>
               <div class="col-md-6 beer-yellow" style="padding-top: 20px">
+                <div class="row" style="text-align: center;">
+                  <div class="beer-yellow-title mobile">OATMEAL STOUT</div>
+                </div>
                 <div class="beer-div-80">
-                <div class="beer-yellow-title mobile">OATMEAL STOUT</div>
                     <span style="text-align: left;">
                       <span class="beer-yellow-body">
                           A BIG PHAT ROUNDED AMERICAN STYLE STOUT FINISHED WITH A NITRO CHARGE.<br/><br/>
@@ -121,7 +120,7 @@
                       </span>
                     </span>
                   </div>  
-                  <div>
+                    <div style="text-align: center;">
                       <a href="https://www.sippify.com.au/search?q=fox" target="_new">
                         <img class="beer-footer" src="images/yellow_footer.png">
                       </a>
@@ -132,12 +131,14 @@
 
             <!-- RED PELT -->
             <div class="container beer-div" style="padding-top:75px;">
-              <div class="col-md-6" style="text-align: center;">
+              <div class="col-md-6" style="text-align: center; padding-bottom: 20px;">
                 <img class="beer-can" src="images/red_pelt.png" height="450">
               </div>
               <div class="col-md-6 beer-red" style="padding-top: 20px">
+                <div class="row" style="text-align: center;">
+                  <div class="beer-red-title mobile">INDIA RED ALE</div>
+                </div>
                 <div class="beer-div-80">
-                <div class="beer-red-title mobile">INDIA RED ALE</div>
                     <span style="text-align: left;">
                       <span class="beer-red-body">
                           A SALUTE TO RED PELTS EVERYWHERE: COCK-SURE, A LITTLE ANGRY AND MAD AS A HATTER.<br/><br/>
@@ -145,7 +146,7 @@
                       </span>
                     </span>
                   </div>  
-                  <div>
+                    <div style="text-align: center;">
                       <a href="https://www.sippify.com.au/search?q=fox" target="_new">
                         <img class="beer-footer" src="images/red_footer.png">
                       </a>
@@ -156,12 +157,14 @@
 
             <!-- FULL MONGREL -->
             <div class="container beer-div" style="padding-top:75px;">
-              <div class="col-md-6" style="text-align: center;">
+              <div class="col-md-6" style="text-align: center; padding-bottom: 20px;">
                 <img class="beer-can" src="images/full_mongrel.png" height="450">
               </div>
               <div class="col-md-6 beer-orange" style="padding-top: 20px">
+                <div class="row" style="text-align: center;">
+                  <div class="beer-orange-title mobile2">RUSSIAN IMPERIAL STOUT</div>
+                </div>
                 <div class="beer-div-80">
-                <div class="beer-orange-title mobile2">RUSSIAN IMPERIAL STOUT</div>
                     <span style="text-align: left;">
                       <span class="beer-orange-body">
                           PHAT MONGREL’S OLDER, INAPPROPRIATE UNCLE. BIGGER BODIED,MORE BITTER, WITH EXTRA MONGREL.<br/><br/>
@@ -169,7 +172,7 @@
                       </span>
                     </span>
                   </div>  
-                  <div>
+                    <div style="text-align: center;">
                       <a href="https://www.sippify.com.au/search?q=fox" target="_new">
                         <img class="beer-footer" src="images/orange_footer.png">
                       </a>

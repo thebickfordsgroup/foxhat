@@ -120,54 +120,76 @@ h2, h3, h4, h5, h6
     --orange: #b99e4a;
 }
 
+.social-button {
+  border-radius: 50%; 
+  background-color: #000!important; 
+  width:75px; 
+  height:75px; 
+  border: 2px solid #fff;
+  -webkit-transition-duration: 0.8s; /* Safari */
+  transition-duration: 0.8s;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.fb {background: url("/images/social_icons_fb.png") center no-repeat; background-size: 25px;}
+.ig {background: url("/images/social_icons_ig.png") center no-repeat; background-size: 40px;}
+.tw {background: url("/images/social_icons_tw.png") center no-repeat; background-size: 40px;}
+.ut {background: url("/images/social_icons_ut.png") center no-repeat; background-size: 40px;}
+
+.fb:hover {background: url("/images/social_icons_fb_2.png") center no-repeat; background-size: 25px;}
+.ig:hover {background: url("/images/social_icons_ig_2.png") center no-repeat; background-size: 40px;}
+.tw:hover {background: url("/images/social_icons_tw_2.png") center no-repeat; background-size: 40px;}
+.ut:hover {background: url("/images/social_icons_ut_2.png") center no-repeat; background-size: 40px;}
+
+.social-button:hover {background-color: #fff!important;}
+
 .beer-pink {
   height: 450px;
   border:6px solid #e57ab1;
   border-left:18px solid #e57ab1;
   background-color: #000;
-  text-align: center;
+  padding: 20px 20px 0px 20px;
 }
 .beer-blue {
   height: 450px;
   border:6px solid #45b4e2;
   border-left:18px solid #45b4e2;
   background-color: #000;
-  text-align: center;
+  padding: 20px 20px 0px 20px;
 }
 .beer-yellow {
   height: 450px;
   border:6px solid #ffd33d;
   border-left:18px solid #ffd33d;
   background-color: #000;
-  text-align: center;
+  padding: 20px 20px 0px 20px;
 }
 .beer-red {
   height: 450px;
   border:6px solid #f0493e;
   border-left:18px solid #f0493e;
   background-color: #000;
-  text-align: center;
+  padding: 20px 20px 0px 20px;
 }
 .beer-orange {
   height: 450px;
   border:6px solid #b99e4a;
   border-left:18px solid #b99e4a;
   background-color: #000;
-  text-align: center;
+  padding: 20px 20px 0px 20px;
 }
 .beer-pink-title
 {
   color: var(--pink);
   display: inline-block;
-  border:6px solid var(--pink);
+  border:4px solid var(--pink);
   margin: 0;
-    padding-top: 5px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+  padding: 5px 20px 0px 20px;
   font-family: 'foxhat';
   font-size: 32px;
   letter-spacing:10px;
+  text-align: left;
 }
 .beer-pink-body
 {
@@ -178,22 +200,20 @@ h2, h3, h4, h5, h6
   font-family: 'monopro';
   font-size: 16px;
   letter-spacing:2px;
-  padding-top: 20px;  
+  padding: 20px 0px 0px 70px;
   text-align: left;
 }
 .beer-blue-title
 {
   color: var(--blue);
   display: inline-block;
-  border:6px solid var(--blue);
+  border:4px solid var(--blue);
   margin: 0;
-    padding-top: 5px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+  padding: 5px 20px 0px 20px;
   font-family: 'foxhat';
   font-size: 32px;
   letter-spacing:10px;
+  text-align: left;
 }
 .beer-blue-body
 {
@@ -204,22 +224,20 @@ h2, h3, h4, h5, h6
   font-family: 'monopro';
   font-size: 16px;
   letter-spacing:2px;
-  padding-top: 20px;  
+  padding: 20px 0px 0px 45px;
   text-align: left;
 }
 .beer-yellow-title
 {
   color: var(--yellow);
   display: inline-block;
-  border:6px solid var(--yellow);
+  border:4px solid var(--yellow);
   margin: 0;
-    padding-top: 5px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+  padding: 5px 20px 0px 20px;
   font-family: 'foxhat';
   font-size: 32px;
   letter-spacing:10px;
+  text-align: left;
 }
 .beer-yellow-body
 {
@@ -230,22 +248,20 @@ h2, h3, h4, h5, h6
   font-family: 'monopro';
   font-size: 16px;
   letter-spacing:2px;
-  padding-top: 20px;  
+  padding: 20px 0px 0px 50px;
   text-align: left;
 }
 .beer-red-title
 {
   color: var(--red);
   display: inline-block;
-  border:6px solid var(--red);
+  border:4px solid var(--red);
   margin: 0;
-    padding-top: 5px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+  padding: 5px 20px 0px 20px;
   font-family: 'foxhat';
   font-size: 32px;
   letter-spacing:10px;
+  text-align: left;
 }
 .beer-red-body
 {
@@ -256,22 +272,20 @@ h2, h3, h4, h5, h6
   font-family: 'monopro';
   font-size: 16px;
   letter-spacing:2px;
-  padding-top: 20px;  
+  padding: 20px 0px 0px 65px;
   text-align: left;
 }
 .beer-orange-title
 {
   color: var(--orange);
   display: inline-block;
-  border:6px solid var(--orange);
+  border:4px solid var(--orange);
   margin: 0;
-    padding-top: 5px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+  padding: 5px 20px 0px 20px;
   font-family: 'foxhat';
   font-size: 28px;
   letter-spacing:5px;
+  text-align: left;
 }
 .beer-orange-body
 {
@@ -282,7 +296,7 @@ h2, h3, h4, h5, h6
   font-family: 'monopro';
   font-size: 16px;
   letter-spacing:2px;
-  padding-top: 20px;  
+  padding: 20px 0px 0px 15px;
   text-align: left;
 }
 
@@ -529,18 +543,16 @@ ul li input[type="checkbox"]:checked+label span:first-child:before {
 ul.nav.navbar-nav 
 {
   padding-left: 75px;
-  padding-top: 30px;
-  margin: 7.5px!important;
+  padding-top: 30px;}
 
-}
  .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
     background-color: #000 !important;
-    border-color: #337ab7;
-}
+    border-color: #337ab7;}
+
  .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
-    background-color: #eee;
-}
+    background-color: #eee;}
+
 .dropdown-menu {
     padding: 20px;
 	background-color: rgba(0, 0, 0, 0.66);
@@ -1413,7 +1425,8 @@ display: none;}
 .challenge-div {
   text-align:center;}
 .beer-div-80{
-  height: 80%; }
+  height: 70%;
+  padding-left:20px; }
 .gmnoprint {display: none;}
 
 /** Responsive **/
@@ -1424,6 +1437,10 @@ display: none;}
   .beer-orange-title {font-size:26px; letter-spacing: 2px;}
   .hide-when-small {display:none;}
   .home-beer {height:244.5px;width:565.5px;}
+  .beer-red-body {padding: 20px 0px 0px 15px;}
+  .beer-yellow-body {padding: 20px 0px 0px 15px;}
+  .beer-blue-body {padding: 20px 0px 0px 15px;}
+  .beer-pink-body {padding: 20px 0px 0px 15px;}
 }
 
 @media screen and (max-width: 999px)
@@ -1449,6 +1466,11 @@ display: none;}
     ul.nav.navbar-nav {padding-left: 25px;padding-top: 25px;}
     h1 {font-size:48px;}
     .the {font-size: 36px;}
+    .beer-pink {width: 70%; left:15%; right:15%;}
+    .beer-blue {width: 70%; left:15%; right:15%;}
+    .beer-yellow {width: 70%; left:15%; right:15%;}
+    .beer-red {width: 70%; left:15%; right:15%;}
+    .beer-orange {width: 70%; left:15%; right:15%;}
 }
 
 @media screen and (max-width: 768px)
@@ -1485,22 +1507,30 @@ display: none;}
     .success-content {top: 5%; left: 10%; right: 10%; width: 80%;}
     .success-msg {font-size: 30px;}
     .success-sig {width:105px; padding-bottom: 20px;}
+
+    .beer-blue-title {font-size:18px; letter-spacing: 5px; border: 4px solid var(--blue);}
+    .beer-yellow-title {font-size:18px; letter-spacing: 5px; border: 4px solid var(--yellow);}
+    .beer-pink-body, .beer-blue-body, .beer-yellow-body, .beer-red-body, .beer-orange-body 
+    {font-size:14px; padding: 20px 0px 0px 0px;}
+    .beer-footer {width:272px;height:48.8px;}
+    .beer-div { padding-right:25px;  padding-left: 25px;}
+    .beer-div-80 { padding-left:0px;}
 }  
 
 @media screen and (max-width: 640px)
 {
   #pac-input {font-size: 14px!important; }
   .privacy h1 {font-size: 30px;}
+
+  .beer-pink {width: 90%; left:5%; right:5%;}
+  .beer-blue {width: 90%; left:5%; right:5%;}
+  .beer-yellow {width: 90%; left:5%; right:5%;}
+  .beer-red {width: 90%; left:5%; right:5%;}
+  .beer-orange {width: 90%; left:5%; right:5%;}
 }
 
 @media screen and (max-width: 543px)
 {
-  .beer-blue-title {font-size:18px; letter-spacing: 5px; border: 4px solid var(--blue);}
-  .beer-yellow-title {font-size:18px; letter-spacing: 5px; border: 4px solid var(--yellow);}
-  .beer-pink-body, .beer-blue-body, .beer-yellow-body, .beer-red-body, .beer-orange-body {font-size:14px;}
-  .beer-footer {width:272px;height:48.8px;}
-  .beer-div-80{height: 84%;}
-  .beer-div { padding-right:25px;  padding-left: 25px;}
   .privacy h1 {font-size: 26px;}
 }
 
@@ -1523,13 +1553,32 @@ display: none;}
     .beer-orange-title {padding-left: 12px;padding-right: 12px;}
     .beer-pink-body, .beer-blue-body, .beer-yellow-body, .beer-red-body, .beer-orange-body {font-size:12px;}
     .beer-footer {width:217.6px;height:39px;}
-    .beer-div-80{height: 88%;}
     .challenge-content {top: 5%; left: 10%; right: 10%; width: 80%;}
     .challenge-msg {font-size: 24px;}
     .age-logo {width:162.8px;}
     h1 {font-size: 28px;}
     .the {font-size: 22px;}
     .privacy h1 {font-size: 22px;}
+
+    .social-button {
+    width:50px;
+    height:50px;}
+
+  .fb {background-size: 17.5px;}  
+  .ig {background-size: 30px;}
+  .tw {background-size: 30px;}
+  .ut {background-size: 30px;}
+
+  .fb:hover {background-size: 17.5px;}  
+  .ig:hover {background-size: 30px;}
+  .tw:hover {background-size: 30px;}
+  .ut:hover {background-size: 30px;}
+
+  .beer-pink {width: 96%; left:2%; right:2%;}
+  .beer-blue {width: 96%; left:2%; right:2%;}
+  .beer-yellow {width: 96%; left:2%; right:2%;}
+  .beer-red {width: 96%; left:2%; right:2%;}
+  .beer-orange {width: 96%; left:2%; right:2%;}
 } 
 
 @media screen and (max-width: 380px)
@@ -1543,6 +1592,20 @@ display: none;}
     .img-heading1 {width:311px;height:26px;}
     .img-heading2 {width:237px;height:26px;}
     .img-heading3 {width:311px;height:26px;}
+
+  .social-button {
+    width:40px;
+    height:40px;}
+
+  .fb {background-size: 15px;}  
+  .ig {background-size: 25px;}
+  .tw {background-size: 25px;}
+  .ut {background-size: 25px;}
+
+  .fb:hover {background-size: 15px;}  
+  .ig:hover {background-size: 25px;}
+  .tw:hover {background-size: 25px;}
+  .ut:hover {background-size: 25px;}
 } 
 
 /** /Responsive **/

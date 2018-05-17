@@ -1,5 +1,6 @@
 var features = 
 [
+{position:new google.maps.LatLng(-27.2445667,153.1074960),type:"full",name:"Bottlemart Margate"},
 {position:new google.maps.LatLng(-32.9144746,151.7228484),type:"full",name:"BottleO New Lambton - New lambton	"},
 {position:new google.maps.LatLng(-33.8924332,151.1721155),type:"full",name:"Camperdown Cellars - Camperdown - Sydney	"},
 {position:new google.maps.LatLng(-34.2261104,150.5911673),type:"full",name:"Charlies Liquor Barn - TAHMOOR - Tahmoor"},

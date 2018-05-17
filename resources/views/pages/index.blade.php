@@ -117,6 +117,7 @@
         });
 
         var markers = [];
+        
         // Listen for the event fired when the user selects a prediction and retrieve
         // more details for that place.
         searchBox.addListener('places_changed', function() {
@@ -170,19 +171,19 @@
 
         var icons = {
           lusty: {
-            icon: '/images/lusty_lager_32x32.png'
+            icon: '/images/foxhat_pin.png'
           },
           metric: {
-            icon: '/images/metric_ipa_32x32.png'
+            icon: '/images/foxhat_pin.png'
           },
           phat: {
-            icon: '/images/phat_mongrel_32x32.png'
+            icon: '/images/foxhat_pin.png'
           },
           pelt: {
-            icon: '/images/red_pelt_32x32.png'
+            icon: '/images/foxhat_pin.png'
           },
           full: {
-            icon: '/images/full_mongrel_32x32.png'
+            icon: '/images/foxhat_pin.png'
           }
         };
 
