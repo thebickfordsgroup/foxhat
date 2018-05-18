@@ -1428,6 +1428,7 @@ display: none;}
   height: 70%;
   padding-left:20px; }
 .gmnoprint {display: none;}
+.title-div {text-align: center;}
 
 /** Responsive **/
 
@@ -1508,13 +1509,15 @@ display: none;}
     .success-msg {font-size: 30px;}
     .success-sig {width:105px; padding-bottom: 20px;}
 
-    .beer-blue-title {font-size:18px; letter-spacing: 5px; border: 4px solid var(--blue);}
-    .beer-yellow-title {font-size:18px; letter-spacing: 5px; border: 4px solid var(--yellow);}
+    .beer-blue-title {font-size:24px; letter-spacing: 5px; border: 4px solid var(--blue);}
+    .beer-yellow-title {font-size:24px; letter-spacing: 5px; border: 4px solid var(--yellow);}
+    .beer-orange-title {font-size:22px; letter-spacing: 2px; border: 4px solid var(--orange);}
     .beer-pink-body, .beer-blue-body, .beer-yellow-body, .beer-red-body, .beer-orange-body 
     {font-size:14px; padding: 20px 0px 0px 0px;}
     .beer-footer {width:272px;height:48.8px;}
     .beer-div { padding-right:25px;  padding-left: 25px;}
     .beer-div-80 { padding-left:0px;}
+    .title-div {text-align: left; padding-left: 10px;}
 }  
 
 @media screen and (max-width: 640px)

@@ -56,7 +56,7 @@
               <img class="beer-can" src="images/lusty_lager.png" height="450">
             </div>
             <div class="col-md-6 beer-pink">
-              <div class="row" style="text-align: center;">
+              <div class="row title-div">
                   <div class="beer-pink-title mobile">STRONG LAGER</div>
               </div>
                 <div class="beer-div-80">
@@ -82,7 +82,7 @@
                 <img class="beer-can" src="images/metric_ipa.png" height="450">
               </div>
                 <div class="col-md-6 beer-blue" style="padding-top: 20px">
-                  <div class="row" style="text-align: center;">
+                  <div class="row title-div">
                     <div class="beer-blue-title mobile">WEST COAST IPA</div>
                   </div>
                   <div class="beer-div-80">
@@ -109,7 +109,7 @@
                 <img class="beer-can" src="images/phat_mongrel.png" height="450">
               </div>
               <div class="col-md-6 beer-yellow" style="padding-top: 20px">
-                <div class="row" style="text-align: center;">
+                <div class="row title-div">
                   <div class="beer-yellow-title mobile">OATMEAL STOUT</div>
                 </div>
                 <div class="beer-div-80">
@@ -135,7 +135,7 @@
                 <img class="beer-can" src="images/red_pelt.png" height="450">
               </div>
               <div class="col-md-6 beer-red" style="padding-top: 20px">
-                <div class="row" style="text-align: center;">
+                <div class="row title-div">
                   <div class="beer-red-title mobile">INDIA RED ALE</div>
                 </div>
                 <div class="beer-div-80">
@@ -161,7 +161,7 @@
                 <img class="beer-can" src="images/full_mongrel.png" height="450">
               </div>
               <div class="col-md-6 beer-orange" style="padding-top: 20px">
-                <div class="row" style="text-align: center;">
+                <div class="row title-div">
                   <div class="beer-orange-title mobile2">RUSSIAN IMPERIAL STOUT</div>
                 </div>
                 <div class="beer-div-80">
