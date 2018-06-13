@@ -33,9 +33,7 @@ class PagesController extends Controller
             $message->from('no-reply@foxhatbrewing.com.au', 'Fox Hat Brewing');
             $message->replyTo('no-reply@foxhatbrewing.com.au', 'Fox Hat Brewing');
             $message->subject('New enquiry from '.$data['name']);
-            $message->to('krystie.kotses@bickfordsgroup.com');
-            $message->cc('craig.davies@wheelandbarrow.com.au');
-            $message->cc('reception@bickfordsgroup.com');
+            $message->to('reception@bickfordsgroup.com');
         });
 
         Session::flash('message', 'message');
