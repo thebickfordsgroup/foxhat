@@ -168,7 +168,7 @@
                     <span style="text-align: left;">
                       <span class="beer-orange-body">
                           PHAT MONGREL’S OLDER, INAPPROPRIATE UNCLE. BIGGER BODIED,MORE BITTER, WITH EXTRA MONGREL.<br/><br/>
-                          <span style="color:#fff;">BANGS OF DARK ROASTED MALT GOODNESS. COFFEE, CACAO AND SLIGHTLY BURNT. ROUNDED OUT WITH THE EARLY FRUIT SPICE. VOLUPTUOUSLY FULL BODIED.</span>
+                          <span style="color:#fff;">BANGS OF DARK ROASTED MALT GOODNESS. COFFEE, CACAO AND SLIGHTLY BURNT. ROUNDED OUT WITH THE EARTHY FRUIT SPICE. VOLUPTUOUSLY FULL BODIED.</span>
                       </span>
                     </span>
                   </div>  
