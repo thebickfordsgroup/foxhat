@@ -1,5 +1,5 @@
 <nav class="navbar navbar-default fixed-nav">
-  <div class="container">
+  <div class="container" style="width:1200px!important;">
 
     @if (Session::has('message'))
     <div class="success-mask" id="myMask"></div>
@@ -35,6 +35,7 @@
         <ul class="nav navbar-nav">
             <li><a href="#story">THE STORY</a></li>
             <li><a href="#beer" class="page-scroll">THE BEER</a></li>
+            <li><a href="#exp" class="page-scroll">THE EXPERIENCE</a></li>
             <li><a href="#find" class="page-scroll">FIND US</a></li>
             <li><a href="#contact" class="page-scroll">CONTACT US</a></li>
         </ul>  

@@ -61,6 +61,37 @@
   @include('partials.story')
 </div>
 
+<div id="beer" class="main-body hide-when-small" style="padding-top:100px; text-align: center;">
+    <img  class="foxhat-hr" src="images/foxhat_hr.png">
+    <img  class="foxhat-hr2" src="images/foxhat_hr2.png">
+</div>
+
+<div id="exp" class="container" style="padding-top: 50px;">
+    <div class="col-md-12 bottom-divs">
+          <div class="row nomarg">
+            <h2 style="text-align: center;">TASTING EXPERIENCES<br/><br/></h2>
+          </div>
+            <p class="story">From a crisp and clear Strong Lager, to a viscous and hop-heavy, full-bodied Russian Imperial Stout. We’ve let the Vale Brewing brewers off the leash and they’re here to prove it with a tasting experience that really packs a punch!</p>
+            <br/>
+            <p class="story"><strong>TASTING: $20</strong></p>
+            <p class="story">Tastings available 7 days a week.</p>
+            <p class="story">Tastings are for over 18 only, ID may be required.</p><br/>
+
+            <p class="story"><strong>Available at:</strong></p>
+            <p class="story">Beresford Tasting Pavilion</p>
+            <p class="story">252 Blewitt Springs Road, McLaren Flat SA 5171</p>
+            <p class="story"><a href="https://www.beresfordwines.com.au/experience" target="_blank">Beresfordwines.com.au/experience</a></p><br/>
+
+            <p class="story">23rd Street Distillery</p>
+            <p class="story">Corner of Renmark Avenue and Twenty Third Street, Renmark SA 5341</p>
+            <p class="story"><a href="https://www.23rdstreetdistillery.com.au/#visiting" target="_blank">23rdstreetdistillery.com.au/#visiting</a></p><br/>
+
+            <p class="story">Beenleigh Artisan Distillery</p>
+            <p class="story">142 Distillery Road, Eagleby QLD 4207</p>
+            {{--<p class="story"><a href="https://www.beenleighrum.com.au/distillery" target="_blank">Beenleighrum.com.au/distillery</a></p>--}}
+            <br/><br/>
+    </div>
+  </div>
 
 <div id="instagram">
 	<div id="story" class="main-body" style="padding-top:150px; padding-bottom:50px; text-align: center;">

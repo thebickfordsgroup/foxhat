@@ -14,6 +14,6 @@ use App\Mail\mailme;
 
 Route::get('/', function () {return view('pages.index');});
 Route::get('/terms', function () {return view('pages.terms');});
-Route::get('/privacy', function () {return view('pages.privacy');});
+Route::get('/privacy', function () {return view('pages.privacy');});;
 
 Route::post('contact', 'PagesController@postContact');
