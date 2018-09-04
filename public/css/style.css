@@ -319,6 +319,18 @@ input.contact {
   text-align: center;
 }
 
+input.contact-comp {
+  font-family: 'foxhat';
+  font-size: 28px;
+  letter-spacing: 4px;
+  width:100%;
+  height:2.5em;
+  border: 2px solid #fff;
+  color: white!important;
+  background-color: #333;
+  text-align: center;
+}
+
 textarea.contact {
   width:100%;
   height:9em;
@@ -337,6 +349,18 @@ button.contact {
   text-align: center;
 }
 
+button.contact-comp {
+  font-family: 'foxhat';
+  font-size: 28px;
+  letter-spacing: 4px;
+  width:100%;
+  height:2.5em;
+  border: 2px solid #fff;
+  color: white!important;
+  background-color: #333;
+  text-align: center;
+}
+
 form input::-webkit-input-placeholder{
      color:#fff !important;
  }
@@ -351,6 +375,11 @@ form input::-webkit-input-placeholder{
 .row{
 	margin:0px;
 	padding:0px;
+}
+
+.margin-bottom
+{
+  margin-bottom: 25px;
 }
 
 .footer-row {margin-top: 20%;}
@@ -1398,6 +1427,10 @@ background-image: none;
 .top-logo {
   margin-top: 8em;
   height: 400px;
+  width: auto;}
+.sign-up-logo{
+  margin-bottom: 4em;
+  height: 500px;
   width: auto;}
 .nav-logo {
   height: auto;

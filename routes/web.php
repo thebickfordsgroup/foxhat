@@ -13,6 +13,7 @@
 use App\Mail\mailme; 
 
 Route::get('/', function () {return view('pages.index');});
+Route::get('/signup', function () {return view('pages.signup');});
 Route::get('/terms', function () {return view('pages.terms');});
 Route::get('/privacy', function () {return view('pages.privacy');});;
 
