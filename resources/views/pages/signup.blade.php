@@ -22,7 +22,7 @@
           </div>
           <div class="row margin-bottom">
             <div class="col-md-12">
-              <h1>SIGN UP TO WIN</h1>
+              <h1 class="comp">SIGN UP TO WIN</h1>
             </div>
           </div>
           <div class="row margin-bottom">

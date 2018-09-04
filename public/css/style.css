@@ -57,6 +57,17 @@ h1 {
   text-align: center;
 }
 
+.comp {
+  color:#fff;
+  margin: 0;
+  padding: 0;
+  font-family: 'foxhat';
+  font-size: 48px;
+  font-weight:600;
+  letter-spacing:15px;
+  text-align: center;
+}
+
 .privacy h1 {
   text-align: left;
   font-size: 36px;
@@ -1430,7 +1441,7 @@ background-image: none;
   width: auto;}
 .sign-up-logo{
   margin-bottom: 4em;
-  height: 500px;
+  height: 250px;
   width: auto;}
 .nav-logo {
   height: auto;
