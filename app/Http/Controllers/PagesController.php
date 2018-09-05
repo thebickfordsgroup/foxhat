@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Newsletter;
 use Illuminate\Routing\Redirector;
 
 use App\Http\Requests;
@@ -11,7 +12,23 @@ use Mail;
 use Session;
 
 class PagesController extends Controller
-{
+{   
+    public function signUp(Request $request)
+    {
+        if (!Newsletter::isSubscribed($request->email) && $request->newsletter==1) 
+        {
+            Newsletter::subscribe($request->email, ['FNAME'=>$request->fname, 'LNAME'=>$request->lname]);
+
+            Session::flash('subscribe', 'subscribe');
+        }
+        else
+        {
+            Session::flash('error', 'error');            
+        }
+
+        return redirect('/signup');        
+    }
+
     public function postContact(Request $formData)
     {
         $this->validate($formData, [
