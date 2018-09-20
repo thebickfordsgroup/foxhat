@@ -4,6 +4,8 @@
     <title>Sign Up To Win!</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta charset="utf-8">
+      <script src="js/sweetalert-dev.js"></script>
+      <link rel="stylesheet" href="css/sweetalert.css">
       <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
       <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
       <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
@@ -11,31 +13,16 @@
       <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
       <link href="//fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   </head>
-<body>
 
-    @if (Session::has('subscribe'))
-    <div class="success-mask" id="myMask"></div>
-    <div class="success-content" id="myModal">
-      <br/>
-      <p class="success-msg">THANK YOU FOR SIGNING UP, GOOD LUCK!</p>
-      <div class="row" style="text-align: center;">
-        <button class="close-btn" type="button">Close</button><br/><br/>  
-        <button id="myBtn" style="display: none;">Open Modal</button>
-      </div>
-    </div>
-    @endif
-
-    @if (Session::has('error'))
-    <div class="success-mask" id="myMask"></div>
-    <div class="success-content" id="myModal">
-      <br/>
-      <p class="success-msg">SOMETHING HAS GONE WRONG, PLEASE TRY AGAIN!</p>
-      <div class="row" style="text-align: center;">
-        <button class="close-btn" type="button">Close</button><br/><br/>  
-        <button id="myBtn" style="display: none;">Open Modal</button>
-      </div>
-    </div>
-    @endif
+    @if (Session::has('success'))
+      <body onload="success_msg();">
+    @else
+      @if (Session::has('error'))
+        <body onload="error_msg();">
+      @else
+        <body>
+      @endif
+    @endif    
 
     <div class="main-body">
       {{ Form::open( [ 'url' => 'sign-up', 'method' => 'post' ] ) }}
@@ -64,7 +51,7 @@
           <div class="row margin-bottom">
             <div class="col-md-1">&nbsp;</div>
             <div class="col-md-5">
-              <input type="text" class="contact-comp" name="email" id="email" placeholder="EMAIL ADDRESS" autocomplete="off" required>
+              <input type="email" class="contact-comp" name="email" id="email" placeholder="EMAIL ADDRESS" autocomplete="off" required>
             </div>
             <div class="col-md-5">              
               <input type="text" class="contact-comp" name="pcode" id="pcode" placeholder="POST CODE" autocomplete="off" required>
@@ -83,7 +70,7 @@
               </label>
             </div>
             <div class="col-md-4">
-              <h2 style="font-size:24px!important; line-height:30px;">SIGN UP TO RECEIVE OUR FOX HAT NEWSLETTER</h2>
+              <h2 style="font-size:24px!important; line-height:30px;">SIGN UP TO RECEIVE NEWS ABOUT FOX HAT</h2>
             </div>
             <div class="col-md-1">&nbsp;</div>
           </div>
@@ -92,7 +79,25 @@
       </div>
     </body>
 </html>        
-<script>
+<script type="text/javascript">
+
+function success_msg(){
+  swal({
+    title: "THANK YOU FOR SIGNING UP, GOOD LUCK!",   
+    type: "success",     
+    confirmButtonColor: "#333",   
+    confirmButtonText: "CLOSE WINDOW", 
+    closeOnConfirm: true });}
+
+function error_msg(){
+  swal({
+  title: "EMAIL ADDRESS HAS ALREADY BEEN ENTERED!",
+  type: "warning",
+  showCancelButton: false,
+  confirmButtonColor: "#333", 
+  confirmButtonText: "CLOSE WINDOW",
+  closeOnConfirm: true});}
+
 // Get the modal
 var modal = document.getElementById('myModal');
 var mask = document.getElementById('myMask');

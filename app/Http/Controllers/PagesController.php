@@ -15,18 +15,23 @@ class PagesController extends Controller
 {   
     public function signUp(Request $request)
     {
-        if (!Newsletter::isSubscribed($request->email) && $request->newsletter==1) 
+        if (!Newsletter::isSubscribed($request->email)) 
         {
             Newsletter::subscribe($request->email, ['FNAME'=>$request->fname, 'LNAME'=>$request->lname, 'PCODE'=>$request->pcode]);
 
-            Session::flash('subscribe', 'subscribe');
+            if($request->newsletter==0)
+            {
+                Newsletter::unsubscribe($request->email);
+            }
+
+            Session::flash('success', 'success');
         }
         else
         {
             Session::flash('error', 'error');            
         }
 
-        return redirect('/signup');        
+        return redirect('/signup');
     }
 
     public function postContact(Request $formData)
