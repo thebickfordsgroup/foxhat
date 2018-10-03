@@ -179,6 +179,72 @@
                     </div>
                 </div>
             </div>
+
+            <div id="beer" class="main-body hide-when-small" style="padding-top:100px; text-align: center;">
+                <img  class="foxhat-hr" src="images/foxhat_hr.png">
+                <img  class="foxhat-hr2" src="images/foxhat_hr2.png">
+            </div>
+
+            <!-- STRAWBERRIES & CREAM -->
+            <div class="container beer-div" style="padding-top:50px;">
+              <div class="col-md-12" style="text-align:center;">
+                <p class="h7">SEASONAL BEER</p><br><br><br>
+              </div>
+              <div class="col-md-6" style="text-align: left; padding: 20px 0px 20px 0px;">
+
+                  <span class="beer-cream-title mobile">to the eye</span>
+                  <p class="story left">a deep pink haze with cascading microbeads of nitrogen, producing a bright white foamy head.</p>
+                  <br/>
+
+                  <span class="beer-cream-title mobile">up your nose</span>
+                  <p class="story left">you guessed it: strawberries, strawberries and strawberries with natural strawberry flavour. oh, and did we mention american wheat?</p>
+                  <br/>
+
+                  <span class="beer-cream-title mobile">in your mouth</span>
+                  <p class="story left">a smooth and luscious wheat base, full on the palate with lactose for some added sweetness and to make those tastebuds cream.</p>
+                  <br/>
+
+                  <span class="beer-cream-title mobile">
+                      <span class="flood" style="color:#fff;">6.5%</span> 
+                      ABV 
+                      | 
+                      <span class="flood" style="color:#fff;">10</span> 
+                      IBU
+                  </span>
+
+              </div>
+              <div class="col-md-6" style="text-align: center;">
+                <img src="images/cream.png">
+              </div>              
+              <div class="col-md-12" style="text-align:center;"><br/><br/>
+                <h2 style="text-align: left;">
+                  FIND STRAWBERRIES &amp; CREAM ON TAP AT A VENUE BELOW:<br/><br/></h2>
+
+              <div class="col-md-6" style="text-align: left;">
+                <h2><b>South Australia</b></h2>
+                <br/>
+                <p class="story" style="text-align: left;">
+                  ► Little Pub - Hindley<br/>
+                  ► Cry Baby Bar - Kings Head<br/>
+                  ► Royal Oak - North Adelaide<br/>
+                  ► Walkers Arms - Walkerville<br/>
+                  ► Republic Hotel - Norwood<br/>
+                </p>
+              </div>
+
+              <div class="col-md-6" style="text-align: left;">
+                <h2><b>Western Australia</b></h2>
+                <br/>
+                <p class="story" style="text-align: left;">
+                  ► The Ashby Bar and Bottleshop<br/>
+                  ► Kewdale Tavern - Kewdale<br/>
+                  ► Breakers Tavern - Geraldton<br/>
+                  ► Cellarbrations - Hamilton Hill<br/>
+                </p>
+              </div>
+
+              </div>
+            </div>
           </div>
         </div>
     </div>

@@ -61,7 +61,7 @@
   @include('partials.story')
 </div>
 
-<div id="beer" class="main-body hide-when-small" style="padding-top:100px; text-align: center;">
+<div id="beer" class="main-body hide-when-small" style="padding-top:50px; text-align: center;">
     <img  class="foxhat-hr" src="images/foxhat_hr.png">
     <img  class="foxhat-hr2" src="images/foxhat_hr2.png">
 </div>
@@ -94,7 +94,7 @@
   </div>
 
 <div id="instagram">
-	<div id="story" class="main-body" style="padding-top:150px; padding-bottom:50px; text-align: center;">
+	<div id="story" class="main-body" style="padding-top:50px; padding-bottom:50px; text-align: center;">
 		<img class="img-heading1" src="images/instagram_header.png">
 	</div>
 	<div class="container">				

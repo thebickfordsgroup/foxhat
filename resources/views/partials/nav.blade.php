@@ -33,9 +33,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-            <li><a href="#story">THE STORY</a></li>
-            <li><a href="#beer" class="page-scroll">THE BEER</a></li>
-            <li><a href="#exp" class="page-scroll">THE EXPERIENCE</a></li>
+            <li><a href="#story">STORY</a></li>
+            <li><a href="#beer" class="page-scroll">BEER</a></li>
+            <li><a href="#exp" class="page-scroll">EXPERIENCE</a></li>
             <li><a href="#find" class="page-scroll">FIND US</a></li>
             <li><a href="#contact" class="page-scroll">CONTACT US</a></li>
         </ul>  
