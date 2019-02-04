@@ -203,7 +203,7 @@
                   <p class="story left">YOUR NASAL HAIRS WILL BE MOSHING ALONG TO THE SPICY STONE FRUIT AROMAS OF OUR HOPS. FROM YOUR FIRST SNIFF YOU WILL KNOW IT ISN’T JUST ANOTHER REGULAR OLD PALE.</p>
                   <br/>
 
-                  <span class="beer-heavy-title-title mobile">in your mouth</span>
+                  <span class="beer-heavy-title mobile">in your mouth</span>
                   <p class="story left">THE DEEP RUMBLE OF COMPLEX SPICY HOPS FLAVOURS DOESN’T HOLD BACK FROM A NIGHT’S SHREDDING. IT’S GOT A BIT EXTRA GOING ON THAN YOUR STANDARD BEER. AT 5.6% ABV IT LEAVES ROOM FOR AN UNFORGETTABLE HARMONY OF CHORDS THAT DON’T JUST SOUND THE SAME.</p>
                   <br/>
 
@@ -220,8 +220,7 @@
                 <img src="images/heavy.png">
               </div>              
               <div class="col-md-12" style="text-align:center;"><br/><br/>
-                <h2 style="text-align: left;">FIND HEAVY HANDED ON TAP AT A VENUE BELOW:<br/><br/></h2>
-                <h2 style="text-align: left;">South Australia<br/><br/></h2>
+                <h2 style="text-align: left;">FIND HEAVY HANDED ON TAP AT A SOUTH AUSTRALIAN VENUE BELOW:<br/><br/></h2>
               </div>
 
               <div class="col-md-12" style="text-align: left;">
@@ -234,7 +233,7 @@
                 </p>
               </div>
 
-              <div class="col-md-12" style="text-align: left;">
+              <div class="col-md-12" style="text-align: left; padding-top: 25px;">
                 <h2><b>COMING SOON...</b></h2>
                 <br/>
                 <p class="story" style="text-align: left;">
@@ -247,8 +246,8 @@
               </div>
 
             <div id="beer" class="main-body hide-when-small" style="padding-top:50px; text-align: center;">
-                <img  class="foxhat-hr" src="images/foxhat_hr.png">
-                <img  class="foxhat-hr2" src="images/foxhat_hr2.png">
+                <img  class="foxhat-hr" src="images/foxhat_hr.png" style="padding: 50px 0px;">
+                <img  class="foxhat-hr2" src="images/foxhat_hr2.png" style="padding: 50px 0px;">
             </div>
 
             <!-- STRAWBERRIES & CREAM -->
