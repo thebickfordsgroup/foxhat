@@ -194,20 +194,20 @@
 
               <div class="col-md-6" style="text-align: left; padding: 20px 0px 20px 0px;">
 
-                  <span class="beer-cream-title mobile">to the eye</span>
+                  <span class="beer-heavy-title mobile">to the eye</span>
                   <p class="story left">
                   A DECEPTIVE GOLDEN GLOW OF PALE STRAW, IT LOOKS LIKE AN INNOCENT BEER BUT DON’T LET THE LOOKS FOOL YOU.</p>
                   <br/>
 
-                  <span class="beer-cream-title mobile">up your nose</span>
+                  <span class="beer-heavy-title mobile">up your nose</span>
                   <p class="story left">YOUR NASAL HAIRS WILL BE MOSHING ALONG TO THE SPICY STONE FRUIT AROMAS OF OUR HOPS. FROM YOUR FIRST SNIFF YOU WILL KNOW IT ISN’T JUST ANOTHER REGULAR OLD PALE.</p>
                   <br/>
 
-                  <span class="beer-cream-title mobile">in your mouth</span>
+                  <span class="beer-heavy-title-title mobile">in your mouth</span>
                   <p class="story left">THE DEEP RUMBLE OF COMPLEX SPICY HOPS FLAVOURS DOESN’T HOLD BACK FROM A NIGHT’S SHREDDING. IT’S GOT A BIT EXTRA GOING ON THAN YOUR STANDARD BEER. AT 5.6% ABV IT LEAVES ROOM FOR AN UNFORGETTABLE HARMONY OF CHORDS THAT DON’T JUST SOUND THE SAME.</p>
                   <br/>
 
-                  <span class="beer-cream-title mobile">
+                  <span class="beer-heavy-title mobile">
                       <span class="flood" style="color:#fff;">5.6%</span> 
                       ABV 
                       | 
@@ -222,8 +222,9 @@
               <div class="col-md-12" style="text-align:center;"><br/><br/>
                 <h2 style="text-align: left;">FIND HEAVY HANDED ON TAP AT A VENUE BELOW:<br/><br/></h2>
                 <h2 style="text-align: left;">South Australia<br/><br/></h2>
+              </div>
 
-              <div class="col-md-6" style="text-align: left;">
+              <div class="col-md-12" style="text-align: left;">
                 <h2><b>NOW POURING...</b></h2>
                 <br/>
                 <p class="story" style="text-align: left;">
@@ -233,7 +234,7 @@
                 </p>
               </div>
 
-              <div class="col-md-6" style="text-align: left;">
+              <div class="col-md-12" style="text-align: left;">
                 <h2><b>COMING SOON...</b></h2>
                 <br/>
                 <p class="story" style="text-align: left;">

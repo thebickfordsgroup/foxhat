@@ -350,6 +350,16 @@ h2, h3, h4, h5, h6
   letter-spacing:5px;
   text-align: left;
 }
+.beer-heavy-title
+{
+  color: #05af9a;
+  display: inline-block;
+  margin: 0;
+  font-family: 'foxhat';
+  font-size: 26px;
+  letter-spacing:5px;
+  text-align: left;
+}
 
 .footer {
     position: absolute;
