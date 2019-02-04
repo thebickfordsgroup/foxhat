@@ -185,11 +185,73 @@
                 <img  class="foxhat-hr2" src="images/foxhat_hr2.png">
             </div>
 
-            <!-- STRAWBERRIES & CREAM -->
             <div class="container beer-div" style="padding-top:50px;">
               <div class="col-md-12" style="text-align:center;">
                 <p class="h7">SEASONAL BEER</p><br><br><br>
               </div>
+
+              <!-- HEAVY HANDED -->
+
+              <div class="col-md-6" style="text-align: left; padding: 20px 0px 20px 0px;">
+
+                  <span class="beer-cream-title mobile">to the eye</span>
+                  <p class="story left">
+                  A DECEPTIVE GOLDEN GLOW OF PALE STRAW, IT LOOKS LIKE AN INNOCENT BEER BUT DON’T LET THE LOOKS FOOL YOU.</p>
+                  <br/>
+
+                  <span class="beer-cream-title mobile">up your nose</span>
+                  <p class="story left">YOUR NASAL HAIRS WILL BE MOSHING ALONG TO THE SPICY STONE FRUIT AROMAS OF OUR HOPS. FROM YOUR FIRST SNIFF YOU WILL KNOW IT ISN’T JUST ANOTHER REGULAR OLD PALE.</p>
+                  <br/>
+
+                  <span class="beer-cream-title mobile">in your mouth</span>
+                  <p class="story left">THE DEEP RUMBLE OF COMPLEX SPICY HOPS FLAVOURS DOESN’T HOLD BACK FROM A NIGHT’S SHREDDING. IT’S GOT A BIT EXTRA GOING ON THAN YOUR STANDARD BEER. AT 5.6% ABV IT LEAVES ROOM FOR AN UNFORGETTABLE HARMONY OF CHORDS THAT DON’T JUST SOUND THE SAME.</p>
+                  <br/>
+
+                  <span class="beer-cream-title mobile">
+                      <span class="flood" style="color:#fff;">5.6%</span> 
+                      ABV 
+                      | 
+                      <span class="flood" style="color:#fff;">52</span> 
+                      IBU
+                  </span>
+
+              </div>
+              <div class="col-md-6" style="text-align: center;">
+                <img src="images/heavy.png">
+              </div>              
+              <div class="col-md-12" style="text-align:center;"><br/><br/>
+                <h2 style="text-align: left;">FIND HEAVY HANDED ON TAP AT A VENUE BELOW:<br/><br/></h2>
+                <h2 style="text-align: left;">South Australia<br/><br/></h2>
+
+              <div class="col-md-6" style="text-align: left;">
+                <h2><b>NOW POURING...</b></h2>
+                <br/>
+                <p class="story" style="text-align: left;">
+                  ► TWENTY THIRD STREET DISTILLERY ON MELB.<br/>
+                  ► THE FRANKLIN<br/>
+                  ► CRY BABY BAR<br/>
+                </p>
+              </div>
+
+              <div class="col-md-6" style="text-align: left;">
+                <h2><b>COMING SOON...</b></h2>
+                <br/>
+                <p class="story" style="text-align: left;">
+                  ► WALKERS ARMS<br/>
+                  ► FOX AND FIRKIN<br/>
+                  ► Royal Oak North Adelaide<br/>
+                  ► The Lighthouse Wharf Beer &amp; Cider Fest (Sat 9th Feb)<br/>
+                  ► BOAB Festival (15th - 17th Feb)<br/>
+                </p>
+              </div>
+
+            <div id="beer" class="main-body hide-when-small" style="padding-top:50px; text-align: center;">
+                <img  class="foxhat-hr" src="images/foxhat_hr.png">
+                <img  class="foxhat-hr2" src="images/foxhat_hr2.png">
+            </div>
+
+            <!-- STRAWBERRIES & CREAM -->
+
               <div class="col-md-6" style="text-align: left; padding: 20px 0px 20px 0px;">
 
                   <span class="beer-cream-title mobile">to the eye</span>
@@ -224,22 +286,7 @@
                 <h2><b>South Australia</b></h2>
                 <br/>
                 <p class="story" style="text-align: left;">
-                  ► Little Pub - Hindley<br/>
-                  ► Cry Baby Bar - Kings Head<br/>
-                  ► Royal Oak - North Adelaide<br/>
-                  ► Walkers Arms - Walkerville<br/>
-                  ► Republic Hotel - Norwood<br/>
-                </p>
-              </div>
-
-              <div class="col-md-6" style="text-align: left;">
-                <h2><b>Western Australia</b></h2>
-                <br/>
-                <p class="story" style="text-align: left;">
-                  ► The Ashby Bar and Bottleshop<br/>
-                  ► Kewdale Tavern - Kewdale<br/>
-                  ► Breakers Tavern - Geraldton<br/>
-                  ► Cellarbrations - Hamilton Hill<br/>
+                  ► CRY BABY BAR - KINGS HEAD<br/>
                 </p>
               </div>
 
