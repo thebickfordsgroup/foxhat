@@ -280,11 +280,9 @@
               </div>              
               <div class="col-md-12" style="text-align:center;"><br/><br/>
                 <h2 style="text-align: left;">
-                  FIND STRAWBERRIES &amp; CREAM ON TAP AT A VENUE BELOW:<br/><br/></h2>
+                  FIND STRAWBERRIES &amp; CREAM ON TAP AT A SOUTH AUSTRALIAN VENUE BELOW:<br/><br/></h2>
 
               <div class="col-md-6" style="text-align: left;">
-                <h2><b>South Australia</b></h2>
-                <br/>
                 <p class="story" style="text-align: left;">
                   ► CRY BABY BAR - KINGS HEAD<br/>
                 </p>
