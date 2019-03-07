@@ -30,17 +30,17 @@
         <div class="container" style="text-align: center;">
           <div class="row">
             <div class="col-md-3">&nbsp;</div>
-            <div class="col-md-6"><img class="sign-up-logo" src="images/main-logo.png"> </div>
+            <div class="col-md-6" style="padding:3% 0%;"><img class="sign-up-logo" src="images/fox_vale.png"></div>
             <div class="col-md-3">&nbsp;</div>
           </div>
           <div class="row margin-bottom">
             <div class="col-md-12">
-              <h1 class="comp">SIGN UP TO WIN</h1>
+              <h1 class="comp">SIGN UP TO OUR MAILING LIST</h1>
             </div>
           </div>
-          <div class="row margin-bottom">
+          <div class="row">
             <div class="col-md-1">&nbsp;</div>
-            <div class="col-md-5">
+            <div class="col-md-5 margin-bottom">
               <input type="text" class="contact-comp" name="fname" id="fname" placeholder="FIRST NAME" autocomplete="off" required>
             </div>
             <div class="col-md-5">              
@@ -48,9 +48,9 @@
             </div>
             <div class="col-md-1">&nbsp;</div>
           </div>
-          <div class="row margin-bottom">
+          <div class="row">
             <div class="col-md-1">&nbsp;</div>
-            <div class="col-md-5">
+            <div class="col-md-5 margin-bottom">
               <input type="email" class="contact-comp" name="email" id="email" placeholder="EMAIL ADDRESS" autocomplete="off" required>
             </div>
             <div class="col-md-5">              
@@ -58,21 +58,12 @@
             </div>
             <div class="col-md-1">&nbsp;</div>
           </div>
-          <div class="row margin-bottom">
-            <div class="col-md-1">&nbsp;</div>
-            <div class="col-md-5">
-              <button type="submit" class="contact-comp">SUBMIT</button>
-            </div>
-            <div class="col-md-1">
-              <label class="containment">
-                <input name="newsletter" value="1" type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-              </label>
-            </div>
+          <div class="row">
+            <div class="col-md-4">&nbsp;</div>
             <div class="col-md-4">
-              <h2 style="font-size:24px!important; line-height:30px;">SIGN UP TO RECEIVE NEWS ABOUT FOX HAT</h2>
-            </div>
-            <div class="col-md-1">&nbsp;</div>
+              <button type="submit" class="contact-comp">SUBMIT</button>
+            </div>            
+            <div class="col-md-4">&nbsp;</div>
           </div>
         </div>
         {{ Form::close() }}
@@ -83,7 +74,7 @@
 
 function success_msg(){
   swal({
-    title: "THANK YOU FOR SIGNING UP, GOOD LUCK!",   
+    title: "THANK YOU FOR SIGNING UP!",   
     type: "success",     
     confirmButtonColor: "#333",   
     confirmButtonText: "CLOSE WINDOW", 
