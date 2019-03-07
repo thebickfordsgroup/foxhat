@@ -18,12 +18,7 @@ class PagesController extends Controller
         if (!Newsletter::isSubscribed($request->email)) 
         {
             Newsletter::subscribe($request->email, ['FNAME'=>$request->fname, 'LNAME'=>$request->lname, 'PCODE'=>$request->pcode]);
-
-            if($request->newsletter==0)
-            {
-                Newsletter::unsubscribe($request->email);
-            }
-
+            
             Session::flash('success', 'success');
         }
         else
