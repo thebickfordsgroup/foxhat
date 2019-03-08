@@ -16,13 +16,13 @@ function display_search($criteria) {
 			
 			echo '&nbsp;&nbsp;<select id="category_id" name="category_id" class="form-control" onchange="form.submit();">';
 				echo '<optgroup label="Packaged Beer">';
-				for($i=0; $i<7; $i++) {
+				for($i=0; $i<6; $i++) {
 					if($categories[$i]['id']==$category_id) echo '<option selected value="'.$categories[$i]['id'].'">'.$categories[$i]['name'].'</option>';
 					else echo '<option value="'.$categories[$i]['id'].'">'.$categories[$i]['name'].'</option>';
 				}
 				echo '</optgroup>';
 	  			echo '<optgroup label="On Tap">';
-				for($i=7; $i<14; $i++) {
+				for($i=7; $i<12; $i++) {
 					if($categories[$i]['id']==$category_id) echo '<option selected value="'.$categories[$i]['id'].'">'.$categories[$i]['name'].'</option>';
 					else echo '<option value="'.$categories[$i]['id'].'">'.$categories[$i]['name'].'</option>';
 				}
