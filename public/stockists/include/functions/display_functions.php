@@ -22,7 +22,7 @@ function display_search($criteria) {
 				}
 				echo '</optgroup>';
 	  			echo '<optgroup label="On Tap">';
-				for($i=7; $i<12; $i++) {
+				for($i=6; $i<12; $i++) {
 					if($categories[$i]['id']==$category_id) echo '<option selected value="'.$categories[$i]['id'].'">'.$categories[$i]['name'].'</option>';
 					else echo '<option value="'.$categories[$i]['id'].'">'.$categories[$i]['name'].'</option>';
 				}
