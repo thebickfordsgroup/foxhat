@@ -11,9 +11,9 @@ $GLOBALS['google_api_key'] = 'AIzaSyA-bCzMmV9AtgRZias1wJ22uMF9JZcFb2Y';
 
 //database access
 $GLOBALS['db_host'] = '127.0.0.1';
-$GLOBALS['db_name'] = 'khbrdjvxca';
-$GLOBALS['db_user'] = 'khbrdjvxca';
-$GLOBALS['db_password'] = 'qP6BCnkXe3';
+$GLOBALS['db_name'] = 'etnfdbnzpy';
+$GLOBALS['db_user'] = 'etnfdbnzpy';
+$GLOBALS['db_password'] = 'AUB66WbwtF';
 
 
 //Pagination - Number of stores to display per page
