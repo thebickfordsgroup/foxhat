@@ -172,6 +172,18 @@
       window.location.href = "https://drinkwise.org.au/";
     }
 
+    function subscribe()
+    {
+      document.getElementById('subscribeModal').style.display = '';
+      document.getElementById('challengeMask').style.display = '';
+    }
+
+    function close_subscribe()
+    {
+      document.getElementById('subscribeModal').style.display = 'none';
+      document.getElementById('challengeMask').style.display = 'none';
+    }
+
   </script>
 
 	<script type="text/javascript">
