@@ -21,10 +21,9 @@
     @if (Session::has('subscribe'))
     <div class="success-mask" id="myMask"></div>
     <div class="success-content" id="myModal">
-      <img src="/images/nav-logo-black.png" />
       <br/><br/>
       <p class="success-msg">
-        YOU HAVE SUCCESSFULLY SUBSCRIBED<br/>FOR THE VALE BREWING NEWSLETTER!
+        YOU HAVE SUCCESSFULLY SUBSCRIBED<br/>FOR THE FOXHAT BREWING NEWSLETTER!
       </p>
       <div class="row" style="padding-top:20px;">
         <button class="close-btn" type="button">CLOSE</button><br/><br/>  
