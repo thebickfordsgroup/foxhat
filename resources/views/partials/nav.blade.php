@@ -18,6 +18,21 @@
     </div>
     @endif
 
+    @if (Session::has('subscribe'))
+    <div class="success-mask" id="myMask"></div>
+    <div class="success-content" id="myModal">
+      <img src="/images/nav-logo-black.png" />
+      <br/><br/>
+      <p class="success-msg">
+        YOU HAVE SUCCESSFULLY SUBSCRIBED<br/>FOR THE VALE BREWING NEWSLETTER!
+      </p>
+      <div class="row" style="padding-top:20px;">
+        <button class="close-btn" type="button">CLOSE</button><br/><br/>  
+        <button id="myBtn" style="display: none;">Open Modal</button>
+      </div>
+    </div>
+    @endif
+
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -38,6 +53,7 @@
             <li><a href="#exp" class="page-scroll">EXPERIENCE</a></li>
             <li><a href="#find" class="page-scroll">FIND US</a></li>
             <li><a href="#contact" class="page-scroll">CONTACT US</a></li>
+            <li><a href="#subscribe" class="page-scroll" onclick="subscribe()">SIGN ME UP</a></li>
         </ul>  
     </div>
     <!-- /.navbar-collapse -->

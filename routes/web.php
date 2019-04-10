@@ -18,4 +18,4 @@ Route::get('/terms', function () {return view('pages.terms');});
 Route::get('/privacy', function () {return view('pages.privacy');});;
 
 Route::post('contact', 'PagesController@postContact');
-Route::post('sign-up', 'PagesController@signUp');
+Route::post('store', 'PagesController@store');

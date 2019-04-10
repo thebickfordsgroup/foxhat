@@ -50,7 +50,14 @@
     else
     {
 ?>
-
+    <div class="challenge-mask-50" id="challengeMask" style="display: none;"></div>
+    <div class="challenge-content" id="subscribeModal" style="display: none; text-align: center; line-height: 40px!important;">
+      </br><img src="/images/nav-logo.png" /></br></br>
+      <span class="challenge-msg">
+        SIGN UP TO FOXHAT FOR EXCLUSIVE UPDATES ON UPCOMING NEWS AND EVENTS.</br></br>
+      </span>
+      @include('partials.subscribe')
+    </div>
 
 <div class="header">
   @include('partials.nav')
