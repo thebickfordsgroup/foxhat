@@ -240,8 +240,6 @@
                   ► WALKERS ARMS<br/>
                   ► FOX AND FIRKIN<br/>
                   ► Royal Oak North Adelaide<br/>
-                  ► The Lighthouse Wharf Beer &amp; Cider Fest (Sat 9th Feb)<br/>
-                  ► BOAB Festival (15th - 17th Feb)<br/>
                 </p>
               </div>
 

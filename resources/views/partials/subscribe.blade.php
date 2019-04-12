@@ -28,7 +28,7 @@
 			  		<div class="col-md-12 challenge-div">
 			          <button class="age-btn-no mc" type="button" onclick="close_subscribe()">◄ CLOSE</button>
 			          <button class="age-btn-yes mc" type="submit">SUBMIT ►</button>
-			          <button id="myBtn" style="display: none;"></button><br/>
+			          <button id="myBtn" style="display: none;"></button><br/><br/>
 					</div>	
 				</div>
 			</form>
