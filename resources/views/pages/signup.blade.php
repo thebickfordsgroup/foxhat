@@ -30,7 +30,7 @@
         <div class="container" style="text-align: center;">
           <div class="row">
             <div class="col-md-3">&nbsp;</div>
-            <div class="col-md-6" style="padding:3% 0%;"><img class="sign-up-logo" src="images/fox_vale.png"></div>
+            <div class="col-md-6" style="padding:3% 0%;"><img class="sign-up-logo" src="images/nav-logo.png"></div>
             <div class="col-md-3">&nbsp;</div>
           </div>
           <div class="row margin-bottom">
