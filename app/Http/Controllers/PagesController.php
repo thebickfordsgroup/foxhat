@@ -15,11 +15,11 @@ class PagesController extends Controller
 {   
     public function store(Request $request)
     {
-        if (!Newsletter::isSubscribed($request->email)) 
-        {
-            Newsletter::subscribe($request->email, ['FNAME'=>$request->fname, 'LNAME'=>$request->lname]);
-            
-            Session::flash('subscribe', 'subscribe');
+        if (!Newsletter::isSubscribed($request->email)) {
+
+        Newsletter::subscribe($request->email, ['FNAME'=>$request->fname, 'LNAME'=>$request->lname, 'PCODE'=>$request->pcode]);
+        Session::flash('subscribe', 'subscribe');
+        
         }
 
         return redirect('/');
