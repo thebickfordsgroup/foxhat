@@ -32,6 +32,20 @@
     </div>
     @endif
 
+    @if (Session::has('subscribe-error'))
+    <div class="success-mask" id="myMask"></div>
+    <div class="success-content" id="myModal">
+      <br/><br/>
+      <p class="success-msg">
+        YOU ARE ALREADY A REGISTERED SUBSCRIBER.<br/>STAY TUNED FOR UPDATES!
+      </p>
+      <div class="row" style="padding-top:20px;">
+        <button class="close-btn" type="button">CLOSE</button><br/><br/>  
+        <button id="myBtn" style="display: none;">Open Modal</button>
+      </div>
+    </div>
+    @endif
+
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
