@@ -1,4 +1,4 @@
-			<form action="{{  url('store') }}" method="POST">	
+			{{ Form::open( [ 'url' => 'store', 'method' => 'post' ] ) }}
 				{{ csrf_field() }}	
 				<div class="row">	
 					<div class="col-md-2"></div>
@@ -31,4 +31,4 @@
 			          <button id="myBtn" style="display: none;"></button><br/><br/>
 					</div>	
 				</div>
-			</form>
+			{{ form::close() }}

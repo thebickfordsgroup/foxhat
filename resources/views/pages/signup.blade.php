@@ -25,7 +25,7 @@
     @endif    
 
     <div class="main-body">
-      {{ Form::open( [ 'url' => 'sign-up', 'method' => 'post' ] ) }}
+      {{ Form::open( [ 'url' => 'store', 'method' => 'post' ] ) }}
       {{ csrf_field() }}  
         <div class="container" style="text-align: center;">
           <div class="row">
