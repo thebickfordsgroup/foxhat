@@ -50,6 +50,32 @@
             <img  class="foxhat-hr2" src="images/foxhat_hr2.png">
         </div>
 
+        <!-- HEAVY HANDED -->
+        <div class="container beer-div" style="padding-top:75px;">
+            <div class="col-md-6" style="text-align: center; padding-bottom: 20px;">
+              <img class="beer-can" src="images/heavy_handed.png" height="450">
+            </div>
+            <div class="col-md-6 beer-green">
+              <div class="row title-div">
+                  <div class="beer-green-title mobile">HEAVY HANDED XPA</div>
+              </div>
+                <div class="beer-div-80">
+                        <span style="text-align: left;">
+                          <span class="beer-green-body">
+                          AN EYEBROW RAISING ANTHEM FOR YOUR SENSES. IT'S POWER CHORDS AND A MESMERISING STAGE PRESENCE IN A CAN.<br/><br/>
+                              <span style="color:#fff;">ITS GOT A BIT EXTRA GOING ON THAN YOUR STANDARD BEER.</span>
+                          </span>
+                        </span>
+                    </div>  
+                    <div style="text-align: center;">
+                      <a href="https://www.sippify.com.au/search?q=fox" target="_new">
+                        <img class="beer-footer" src="images/green_footer.jpg">
+                      </a>
+                    </div>
+                </div>
+            </div>
+          </div>
+
         <!-- LUSTY LAGER -->
         <div class="container beer-div" style="padding-top:75px;">
             <div class="col-md-6" style="text-align: center; padding-bottom: 20px;">
@@ -190,100 +216,19 @@
                 <p class="h7">SEASONAL BEER</p><br><br><br>
               </div>
 
-              <!-- HEAVY HANDED -->
+              <!-- NITRO INNUENDO -->
 
               <div class="col-md-6" style="text-align: left; padding: 20px 0px 20px 0px;">
 
-                  <span class="beer-heavy-title mobile">to the eye</span>
-                  <p class="story left">
-                  A DECEPTIVE GOLDEN GLOW OF PALE STRAW, IT LOOKS LIKE AN INNOCENT BEER BUT DON’T LET THE LOOKS FOOL YOU.</p>
+                  <span class="beer-nitro-title mobile">to the eye</span>
+                  <br/><br/>
+                  <p class="story left" style="text-transform: uppercase;">
+                    This humdinger of an Imperial Oaked Porter is a rollicking combo of stuff you really want, you just didn’t know it.<br/><br/>Get your tastebuds busy with spiced rum, pomegranate, vanilla, coconut, honey and some horny goat weed (‘cos we care.)<br/><br/>Be prepared to take on a whole lot of oomph, balanced with creamy nitro blast. See you on Jupiter. Enjoy in moderation.
+                  </p>
                   <br/>
-
-                  <span class="beer-heavy-title mobile">up your nose</span>
-                  <p class="story left">YOUR NASAL HAIRS WILL BE MOSHING ALONG TO THE SPICY STONE FRUIT AROMAS OF OUR HOPS. FROM YOUR FIRST SNIFF YOU WILL KNOW IT ISN’T JUST ANOTHER REGULAR OLD PALE.</p>
-                  <br/>
-
-                  <span class="beer-heavy-title mobile">in your mouth</span>
-                  <p class="story left">THE DEEP RUMBLE OF COMPLEX SPICY HOPS FLAVOURS DOESN’T HOLD BACK FROM A NIGHT’S SHREDDING. IT’S GOT A BIT EXTRA GOING ON THAN YOUR STANDARD BEER. AT 5.6% ABV IT LEAVES ROOM FOR AN UNFORGETTABLE HARMONY OF CHORDS THAT DON’T JUST SOUND THE SAME.</p>
-                  <br/>
-
-                  <span class="beer-heavy-title mobile">
-                      <span class="flood" style="color:#fff;">5.6%</span> 
-                      ABV 
-                      | 
-                      <span class="flood" style="color:#fff;">52</span> 
-                      IBU
-                  </span>
-
               </div>
               <div class="col-md-6" style="text-align: center;">
-                <img src="images/heavy.png">
-              </div>              
-              <div class="col-md-12" style="text-align:center;"><br/><br/>
-                <h2 style="text-align: left;">FIND HEAVY HANDED ON TAP AT A SOUTH AUSTRALIAN VENUE BELOW:<br/><br/></h2>
-              </div>
-
-              <div class="col-md-12" style="text-align: left;">
-                <h2><b>NOW POURING...</b></h2>
-                <br/>
-                <p class="story" style="text-align: left;">
-                  ► TWENTY THIRD STREET DISTILLERY ON MELB.<br/>
-                  ► THE FRANKLIN<br/>
-                  ► CRY BABY BAR<br/>
-                </p>
-              </div>
-
-              <div class="col-md-12" style="text-align: left; padding-top: 25px;">
-                <h2><b>COMING SOON...</b></h2>
-                <br/>
-                <p class="story" style="text-align: left;">
-                  ► WALKERS ARMS<br/>
-                  ► FOX AND FIRKIN<br/>
-                  ► Royal Oak North Adelaide<br/>
-                </p>
-              </div>
-
-            <div id="beer" class="main-body hide-when-small" style="padding-top:50px; text-align: center;">
-                <img  class="foxhat-hr" src="images/foxhat_hr.png" style="padding: 50px 0px;">
-                <img  class="foxhat-hr2" src="images/foxhat_hr2.png" style="padding: 50px 0px;">
-            </div>
-
-            <!-- STRAWBERRIES & CREAM -->
-
-              <div class="col-md-6" style="text-align: left; padding: 20px 0px 20px 0px;">
-
-                  <span class="beer-cream-title mobile">to the eye</span>
-                  <p class="story left">a deep pink haze with cascading microbeads of nitrogen, producing a bright white foamy head.</p>
-                  <br/>
-
-                  <span class="beer-cream-title mobile">up your nose</span>
-                  <p class="story left">you guessed it: strawberries, strawberries and strawberries with natural strawberry flavour. oh, and did we mention american wheat?</p>
-                  <br/>
-
-                  <span class="beer-cream-title mobile">in your mouth</span>
-                  <p class="story left">a smooth and luscious wheat base, full on the palate with lactose for some added sweetness and to make those tastebuds cream.</p>
-                  <br/>
-
-                  <span class="beer-cream-title mobile">
-                      <span class="flood" style="color:#fff;">6.5%</span> 
-                      ABV 
-                      | 
-                      <span class="flood" style="color:#fff;">10</span> 
-                      IBU
-                  </span>
-
-              </div>
-              <div class="col-md-6" style="text-align: center;">
-                <img src="images/cream.png">
-              </div>              
-              <div class="col-md-12" style="text-align:center;"><br/><br/>
-                <h2 style="text-align: left;">
-                  FIND STRAWBERRIES &amp; CREAM ON TAP AT A SOUTH AUSTRALIAN VENUE BELOW:<br/><br/></h2>
-
-              <div class="col-md-6" style="text-align: left;">
-                <p class="story" style="text-align: left;">
-                  ► CRY BABY BAR - KINGS HEAD<br/>
-                </p>
+                <img src="images/nitro.png" style="border:2px solid #fff;">
               </div>
 
               </div>
