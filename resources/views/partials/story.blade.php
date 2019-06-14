@@ -94,7 +94,7 @@
                         </span>
                     </div>  
                     <div style="text-align: center;">
-                      <a href="https://www.sippify.com.au/search?q=fox" target="_new">
+                      <a title="add to cart" href="#addtocart-product-511">
                         <img class="beer-footer" src="images/pink_footer.png">
                       </a>
                     </div>

@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> 
 <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<script id="cmsshopid" src="//sippify.x-shops.com/skins/customer/modules/FC/CmsShop/controller.js" data-minicart-css="minicart.css" data-url="//sippify.x-shops.com/" data-title="Buy Fox Hat Beer Online"></script>
 </head>
 <body>
 
